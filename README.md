@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="screenshots/mainHeader.jpg" alt="Fluenty applied to the Steam client" width="100%" />
+<img src="Fluenty/screenshots/mainHeader.jpg" alt="Fluenty applied to the Steam client" width="100%" />
 
 <br /><br />
 
@@ -51,7 +51,7 @@ This repo hosts that modified build of Fluenty, free, with full credit to the or
 ## The SteamVR mod
 
 <div align="center">
-<img src="screenshots/mainHeader.jpg" alt="VR button visible in the Steam title bar" width="600" />
+<img src="Fluenty/screenshots/mainHeader.jpg" alt="VR button visible in the Steam title bar" width="600" />
 </div>
 
 A SteamVR launcher icon sits in the Steam title bar, right between the profile avatar and the minimize button. One click routes to `steam://run/250820`, the same URL Steam uses internally to launch SteamVR.
@@ -66,8 +66,8 @@ No more enabling Tools in the library just to find SteamVR. Works with Quest Lin
 | **Endpoint** | `steam://run/250820` |
 | **Hit target** | 30 &times; 30 px (matches Steam's native action buttons) |
 | **Persistence** | MutationObserver re-attaches the button if Steam's React tree drops it on navigation |
-| **Files added** | [`src/scripts/vrButton.js`](src/scripts/vrButton.js) |
-| **Files modified** | [`libraryroot.custom.js`](libraryroot.custom.js) (one import line) |
+| **Files added** | [`src/scripts/vrButton.js`](Fluenty/src/scripts/vrButton.js) |
+| **Files modified** | [`libraryroot.custom.js`](Fluenty/libraryroot.custom.js) (one import line) |
 | **Visual footprint** | Pixel-matched to Steam's notification/profile buttons. Identical hover, identical rounding. |
 
 </details>
@@ -133,13 +133,13 @@ The one thing this fork adds. A headset icon in the top right, one click away fr
 
 <div align="center">
 
-<img src="screenshots/gameLib.jpg" alt="Game library" width="49%" />
-<img src="screenshots/gameStorePage.jpg" alt="Game store page" width="49%" />
+<img src="Fluenty/screenshots/gameLib.jpg" alt="Game library" width="49%" />
+<img src="Fluenty/screenshots/gameStorePage.jpg" alt="Game store page" width="49%" />
 
-<img src="screenshots/storePage.jpg" alt="Steam storefront" width="49%" />
-<img src="screenshots/friendsChat.jpg" alt="Friends chat" width="49%" />
+<img src="Fluenty/screenshots/storePage.jpg" alt="Steam storefront" width="49%" />
+<img src="Fluenty/screenshots/friendsChat.jpg" alt="Friends chat" width="49%" />
 
-<img src="screenshots/tweakOptions.jpg" alt="Tweak options panel" width="100%" />
+<img src="Fluenty/screenshots/tweakOptions.jpg" alt="Tweak options panel" width="100%" />
 
 </div>
 
@@ -323,11 +323,11 @@ Yes. The button doesn't care which headset SteamVR is launching, it just opens S
 Fluenty itself is the property of Project-Millennium. The original theme (`src/`, `libraryroot.custom.css`, the bulk of `libraryroot.custom.js`, and the original `LICENSE`) belongs to them.
 
 The additions in this fork are:
-- [`src/scripts/vrButton.js`](src/scripts/vrButton.js) (new file)
-- A single import line in [`libraryroot.custom.js`](libraryroot.custom.js)
+- [`src/scripts/vrButton.js`](Fluenty/src/scripts/vrButton.js) (new file)
+- A single import line in [`libraryroot.custom.js`](Fluenty/libraryroot.custom.js)
 - This README and the screenshots folder
 
-These additions are released under the same license as the original Fluenty. See [`LICENSE`](LICENSE) for the full terms.
+These additions are released under the same license as the original Fluenty. See [`LICENSE`](Fluenty/LICENSE) for the full terms.
 
 Steam is a trademark of Valve Corporation. This project is not affiliated with Valve or Project-Millennium.
 
