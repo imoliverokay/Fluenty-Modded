@@ -26,6 +26,10 @@
 
 ### [Visit the live site](https://fluenty-free.vercel.app) &nbsp;&middot;&nbsp; [Download latest](https://github.com/imoliverokay/Fluenty-Modded/releases) &nbsp;&middot;&nbsp; [Support Project-Millennium](https://steambrew.app)
 
+<br />
+
+<img src="Fluenty/screenshots/og-image.png" alt="Fluenty Modded social preview" width="600" />
+
 
 </div>
 
