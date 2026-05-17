@@ -1,0 +1,28 @@
+@import url('./src/styles/frame.css');
+@import url('./src/styles/library.css');
+
+/* SuperNav DropDown */
+
+._3pofGqV0buiKAfMPEs3_82 {
+    background: transparent !important;
+}
+
+hr._2jXHP0742MyApMUVUM8IFn.WUOrULWKkGLl3ZUQdDXg8 {
+    border-bottom: .2px solid #404040 !important;
+}
+
+.PP7LM0Ow1K5qkR8WElLpt.visible._1S6CCCQlcTTAAHh3LMTLh1 {
+    min-width: 150px !important;
+}
+
+._2Lu3d-5qLmW4i19ysTt2jT._3mGEzzp18imtSzGPkduedi {
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Custom search classes */
+
+.not-matched {
+    opacity: 10% !important;
+    filter: blur(2px);
+}

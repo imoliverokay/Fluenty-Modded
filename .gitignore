@@ -1,0 +1,17 @@
+# Site source lives in a separate private repo
+site (unrelated)/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+*.zip
+node_modules/

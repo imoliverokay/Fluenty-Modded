@@ -1,0 +1,477 @@
+{
+  "Conditions": {
+    "Sidebar View": {
+      "tab": "Window Preferences",
+      "default": "No sidebar, just title bar",
+      "description": "Remove sidebars and make the main content area wider at a lose of some functionality",
+      "values": {
+        "Windows 11": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/win11SideBar.css"
+          }
+        },
+        "Compact": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/compactSideBar.css"
+          }
+        },
+        "No sidebar": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/compactView.css"
+          },
+          "TargetJs": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/compactView.js"
+          }
+        }
+      }
+    },
+    "Scroll Bar Width": {
+      "tab": "Window Preferences",
+      "default": "2px",
+      "description": "Adjust window scrollbar width",
+      "values": {
+        "2px": {
+          "TargetCss": {
+            "affects": [
+              ".*"
+            ],
+            "src": "src/styles/config/scroll-bar/2px.css"
+          }
+        },
+        "4px": {
+          "TargetCss": {
+            "affects": [
+              ".*"
+            ],
+            "src": "src/styles/config/scroll-bar/4px.css"
+          }
+        },
+        "6px": {
+          "TargetCss": {
+            "affects": [
+              ".*"
+            ],
+            "src": "src/styles/config/scroll-bar/6px.css"
+          }
+        }
+      }
+    },
+    "Title Bar Auto Hide": {
+      "tab": "Window Preferences",
+      "default": "Show",
+      "description": "Auto hide the title bar (only works with 'No sidebar' option)",
+      "values": {
+        "Show": {},
+        "Hide": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/titleBarAutohide.css"
+          }
+        }
+      }
+    },
+    "Wallet Amount": {
+      "tab": "Window Preferences",
+      "default": "Hide",
+      "description": "Show / hide wallet amount",
+      "values": {
+        "Hide": {},
+        "Show": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/showWalletAmount.css"
+          }
+        }
+      }
+    },
+    "Navigation Arrow": {
+      "tab": "Window Preferences",
+      "default": "Show",
+      "description": "Show / hide navigation arrow \n (caution, this will disable the back / forward functionality, you should have other means to do the back / forward functionality, such as with mouse back / forward button)",
+      "values": {
+        "Show": {},
+        "Hide": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/hideNavigationArrow.css"
+          }
+        }
+      }
+    },
+    "Library List": {
+      "tab": "Library Preferences",
+      "description": "Full: List with buttons \n Compact: List without top buttons \n Hide: Removes list completely",
+      "default": "Full",
+      "values": {
+        "Full": {},
+        "Compact": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/library-list/compactLib.css"
+          }
+        },
+        "Hide": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/library-list/hideLib.css"
+          }
+        }
+      }
+    },
+    "Play Button Alignment": {
+      "tab": "Library Preferences",
+      "description": "Pick the alignment of the play button in the Steam library",
+      "default": "Center",
+      "values": {
+        "Center": {},
+        "Left Spanning": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/playButtonAlignment.css"
+          }
+        }
+      }
+    },
+    "What's New": {
+      "tab": "Library Preferences",
+      "description": "Show / hide whats new section in the library",
+      "default": "Show",
+      "values": {
+        "Show": {},
+        "Hide": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/hideWhatsNew.css"
+          }
+        }
+      }
+    },
+    "Add Shelf": {
+      "tab": "Library Preferences",
+      "description": "Show / hide Add Shelf section in the library",
+      "default": "Show",
+      "values": {
+        "Show": {},
+        "Hide": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/hideNewShelf.css"
+          }
+        }
+      }
+    },
+    "Game Header Width": {
+      "tab": "Library Preferences",
+      "description": "Adjust the width of header in the game's page",
+      "default": "Full",
+      "values": {
+        "Full": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/gameHeaderWidth.css"
+          }
+        },
+        "Original": {}
+      }
+    },
+    "Play Button Color": {
+      "tab": "Library Preferences",
+      "description": "Allow play button to be effected by system colors",
+      "default": "yes",
+      "values": {
+        "yes": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/playButtonSACMatte.css"
+          }
+        },
+        "no": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/playButtonMatte.css"
+          }
+        }
+      }
+    },
+    "Game Stats Position": {
+      "tab": "Library Preferences",
+      "description": "Adjust the position of games statistic (hours played, release date, etc)",
+      "default": "Bottom Right",
+      "values": {
+        "Bottom Right": {},
+        "Bottom Center": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/library-stats/bottomCenter.css"
+          }
+        },
+        "Top Right": {
+          "TargetCss": {
+            "affects": [
+              "^Steam$"
+            ],
+            "src": "src/styles/config/library-stats/topRight.css"
+          }
+        }
+      }
+    },
+    "Main Profile Settings": {
+      "tab": "Miscellaneous",
+      "description": "Sets the default main profile page's view",
+      "default": "Default",
+      "values": {
+        "Default": {
+          "TargetCss": {
+            "affects": [
+              "https://steamcommunity.com/id/.*"
+            ],
+            "src": "src/styles/config/profile/defaultProfile.css"
+          }
+        },
+        "Transparent": {
+          "TargetCss": {
+            "affects": [
+              "https://steamcommunity.com/id/.*"
+            ],
+            "src": "src/styles/config/profile/transparentBG.css"
+          }
+        }
+      }
+    },
+    "Store Page Live Broadcast Visibility": {
+      "tab": "Miscellaneous",
+      "description": "Show / hide Live Broadcast video on the store page",
+      "default": "Show",
+      "values": {
+        "Show": {},
+        "Hide": {
+          "TargetCss": {
+            "affects": [
+              "https://store.steampowered.com/app/.*"
+            ],
+            "src": "src/styles/config/removeStoreLive.css"
+          }
+        }
+      }
+    },
+    "Color Scheme": {
+      "tab": "Color Preferences",
+      "description": "Adjust the color scheme of Fluenty. Recent Steam updates ruined these, but they still somewhat work. We are working on fixing them.",
+      "default": "Dark",
+      "values": {
+        "WinUI": {
+          "TargetCss": {
+            "affects": [
+              ".*"
+            ],
+            "src": "src/styles/config/colors/winui.css"
+          }
+        },
+        "Dark": {
+          "TargetCss": {
+            "affects": [
+              ".*"
+            ],
+            "src": "src/styles/config/colors/dark.css"
+          }
+        }
+      }
+    }
+  },
+  "Patches": [
+    {
+      "MatchRegexString": ".*",
+      "TargetCss": "src/styles/variables.css"
+    },
+    {
+      "MatchRegexString": "^Steam$",
+      "TargetCss": "libraryroot.custom.css",
+      "TargetJs": "libraryroot.custom.js"
+    },
+    {
+      "MatchRegexString": ".ModalDialogPopup",
+      "TargetCss": "src/styles/modals/preload.css",
+      "TargetJs": "src/styles/modals/modalHandler.js"
+    },
+    {
+      "MatchRegexString": "^Menu$",
+      "TargetCss": "src/styles/menus/trayMenu.css"
+    },
+    {
+      "MatchRegexString": "^Friends Root Menu$",
+      "TargetCss": "src/styles/menus/friendsRootMenu.css"
+    },
+    {
+      "MatchRegexString": "^View Root Menu$",
+      "TargetCss": "src/styles/menus/viewRootMenu.css",
+      "TargetJs": "src/styles/menus/viewRootMenu.js"
+    },
+    {
+      "MatchRegexString": "^Steam Root Menu$",
+      "TargetCss": "src/styles/menus/steamRootMenu.css",
+      "TargetJs": "src/styles/menus/steamRootMenu.js"
+    },
+    {
+      "MatchRegexString": "^Notifications Menu$",
+      "TargetCss": "src/styles/menus/notificationsMenu.css"
+    },
+    {
+      "MatchRegexString": "^Games Root Menu$",
+      "TargetCss": "src/styles/menus/gamesRootMenu.css"
+    },
+    {
+      "MatchRegexString": "^Help Root Menu$",
+      "TargetCss": "src/styles/menus/helpRootMenu.css"
+    },
+    {
+      "MatchRegexString": "^Account Menu$",
+      "TargetCss": "src/styles/menus/accountMenu.css"
+    },
+    {
+      "MatchRegexString": ".*Supernav$",
+      "TargetCss": "libraryroot.custom.css",
+      "TargetJs": "libraryroot.custom.js"
+    },
+    {
+      "MatchRegexString": "^notificationtoasts_",
+      "TargetCss": "src/styles/modals/notifications/notifs.css",
+      "TargetJs": "src/styles/modals/notifications/notifs.js"
+    },
+    {
+      "MatchRegexString": "^SteamBrowser_Find$",
+      "TargetCss": "libraryroot.custom.css",
+      "TargetJs": "libraryroot.custom.js"
+    },
+    {
+      "MatchRegexString": "OverlayBrowser_(?!.*_Find$).*",
+      "TargetCss": "src/styles/overlay/Browser.css"
+    },
+    {
+      "MatchRegexString": "OverlayBrowser_.*_Find",
+      "TargetCss": "src/styles/overlay/Browser.css"
+    },
+    {
+      "MatchRegexString": "OverlayTab\\d+_Find",
+      "TargetCss": "src/styles/overlay/Browser.css"
+    },
+    {
+      "MatchRegexString": "OverlayBrowser_Browser",
+      "TargetCss": "src/styles/overlay/Browser.css"
+    },
+    {
+      "MatchRegexString": "^Steam Big Picture Mode$",
+      "TargetCss": "styles/bigpicture.custom.css",
+      "TargetJs": "bigpicture.custom.js"
+    },
+    {
+      "MatchRegexString": "^QuickAccess_",
+      "TargetCss": "styles/bigpicture.custom.css",
+      "TargetJs": "bigpicture.custom.js"
+    },
+    {
+      "MatchRegexString": "^MainMenu_",
+      "TargetCss": "styles/bigpicture.custom.css",
+      "TargetJs": "bigpicture.custom.js"
+    },
+    {
+      "MatchRegexString": ".friendsui-container",
+      "TargetCss": "src/styles/modals/friends/FriendsChat.css"
+    },
+    {
+      "MatchRegexString": ".FullModalOverlay",
+      "TargetCss": "libraryroot.custom.css",
+      "TargetJs": "libraryroot.custom.js"
+    },
+    {
+      "MatchRegexString": ".*SP Overlay:.*",
+      "TargetCss": "src/styles/overlay/overlay.css"
+    },
+    {
+      "MatchRegexString": "^GameOverview$",
+      "TargetCss": "src/styles/overlay/gameOverview.css"
+    },
+    {
+      "MatchRegexString": "^GameNotes$",
+      "TargetCss": "src/styles/overlay/gameNotes.css"
+    },
+    {
+      "MatchRegexString": "^Store Supernav$",
+      "TargetCss": "src/styles/supernavs/storeNav.css"
+    },
+    {
+      "MatchRegexString": "^Library Supernav$",
+      "TargetCss": "src/styles/supernavs/libraryNav.css"
+    },
+    {
+      "MatchRegexString": "^Community Supernav$",
+      "TargetCss": "src/styles/supernavs/communityNav.css"
+    },
+    {
+      "MatchRegexString": "^Profile Supernav$",
+      "TargetCss": "src/styles/supernavs/profileNav.css"
+    },
+    {
+      "MatchRegexString": "^Sign in to Steam$",
+      "TargetCss": "src/styles/loginView.css"
+    },
+    {
+      "MatchRegexString": "^Recordings.*",
+      "TargetCss": "src/styles/modals/screenshotsManager/ScreenshotManager.css"
+    },
+    {
+      "MatchRegexString": "https://store.steampowered.com/app/.*",
+      "TargetCss": "src/styles/webkit/viewGame.css",
+      "TargetJs": "src/styles/webkit/viewGame.js"
+    },
+    {
+      "MatchRegexString": "https://store.steampowered.com/agecheck/app/.*",
+      "TargetCss": "src/styles/webkit/ageCheck.css"
+    },
+    {
+      "MatchRegexString": "^useBrowserViewContextMenu",
+      "TargetCss": "src/styles/utility/browserContextMenu.css"
+    }
+  ],
+  "webkitCSS": "src/styles/webkit/webkit.css",
+  "webkitJS": "src/scripts/webkit.js",
+  "author": "ShadowMonster, Clawdius",
+  "description": "A fluent, spacious design for Steam, inspired by the Microsoft Fluent Design template launched with Windows 11",
+  "name": "Fluenty",
+  "version": "1.11.0"
+}
