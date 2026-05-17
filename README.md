@@ -24,9 +24,8 @@
 
 <br />
 
-### [Visit the live site](https://fluenty-modded.vercel.app) &nbsp;&middot;&nbsp; [Download latest](https://github.com/imoliverokay/Fluenty-Modded/releases) &nbsp;&middot;&nbsp; [Support Project-Millennium](https://steambrew.app)
+### [Visit the live site](https://fluenty-free.vercel.app) &nbsp;&middot;&nbsp; [Download latest](https://github.com/imoliverokay/Fluenty-Modded/releases) &nbsp;&middot;&nbsp; [Support Project-Millennium](https://steambrew.app)
 
-<!-- TODO: when you deploy to Vercel, replace the URL above with the real one -->
 
 </div>
 
@@ -342,7 +341,7 @@ Steam is a trademark of Valve Corporation. This project is not affiliated with V
 <br />
 
 [![GitHub](https://img.shields.io/badge/GitHub-imoliverokay-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/imoliverokay)
-[![Live site](https://img.shields.io/badge/Live_site-fluenty--modded.vercel.app-4cc2ff?style=for-the-badge)](https://fluenty-modded.vercel.app)
+[![Live site](https://img.shields.io/badge/Live_site-fluenty--free.vercel.app-4cc2ff?style=for-the-badge)](https://fluenty-free.vercel.app)
 [![Original Patreon](https://img.shields.io/badge/Original_on-Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white)](https://steambrew.app)
 
 </div>
