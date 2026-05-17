@@ -1,0 +1,1823 @@
+* {
+    box-shadow: none !important
+}
+
+/* default properties */
+
+:root {
+    /* mod colors */
+    --txtcolor: orange;
+    --progressbar: orange;
+    --customcolor: orange;
+    --dark: rgb(var(--dark-19));
+    --transparent: transparent;
+    --grey: #2e2e2f;
+    --background: #1e1e1f;
+    --scrollbar: orange;
+    --header: #3e3e3f;
+    --text: #ffffff;
+    --border0: 5px;
+    --border1: 10px;
+    --border2: 20px;
+    --border3: 30px;
+    --border4: 40px;
+    --border5: 50px;
+    --border6: 60px;
+    --border7: 70px;
+    --border8: 80px;
+    --border9: 90px;
+    --color-light: rgb(var(--dark-30));
+    --color-dark: rgb(var(--dark-21));
+    --color-darker: rgb(var(--dark-19));
+    --color-darkest: rgb(var(--dark-14));
+    --scrollbar: rgb(var(--dark-30));
+    --scrollbar: rgb(var(--dark-30));
+    --black: #000000;
+    --black-ish: #2a3f5a00;
+    --realblack: #101010;
+    --blacker-ish: rgb(var(--dark-1b));
+    --blacker: #1c1c1c;
+    --lightblack: #252525;
+    --darkergrey: #151515;
+    --bedarkgrey: #161616;
+    --thegrey: #252525;
+    --begrey: #262627;
+    --littlegrey: #282828;
+    --darkgrey: #1e1e1f;
+    --grey: #2e2e2f;
+    --lightgrey: #3e3e3f;
+    --lightergrey: #353535;
+    --grey-ish: #454545;
+    --dakerwhite: #b8b6b4;
+    --darkwhite: #d9dadd;
+    --white: #ffffff;
+    --darkblue: #0e5984;
+    --blue: #4f95bd;
+    --blu: #67c1f5;
+    --blue-ish: #7cbef8;
+    --blue-er: #a4d7f5;
+    --lightblue: #c4e4f2;
+    --darkgreen: #5c7e10;
+    --green: #d2e885;
+    --ingame: #90ba3c;
+    --online: #57cbde;
+    --offline: #898989;
+    --gold: #ffcc6a;
+    --bronze: #695833;
+    --purple: #6624e2;
+    --pink: #ff00ff;
+    --red: #ff0000;
+    --orange: #ff6600;
+    --yellow: #ffff00;
+    --win11: 666;
+    /* Profile Blur */
+    --blur: blur(10px);
+    /* default 10px */
+    --pbc: 1px solid #666666;
+    --pbc10: 1px solid #66666610;
+    --pbc20: 1px solid #66666620;
+    --pbc30: 1px solid #66666630;
+    --pbc40: 1px solid #66666640;
+    --pbc50: 1px solid #66666650;
+    --pbc60: 1px solid #66666660;
+    --pbc70: 1px solid #66666670;
+    --pbc80: 1px solid #66666680;
+    --pbc90: 1px solid #66666690;
+    --p2pbc: 2px solid #666666;
+    --p2pbc10: 2px solid #66666610;
+    --p2pbc20: 2px solid #66666620;
+    --p2pbc30: 2px solid #66666630;
+    --p2pbc40: 2px solid #66666640;
+    --p2pbc50: 2px solid #66666650;
+    --p2pbc60: 2px solid #66666660;
+    --p2pbc70: 2px solid #66666670;
+    --p2pbc80: 2px solid #66666680;
+    --p2pbc90: 2px solid #66666690;
+}
+
+:root {
+    --icon-disabled: rgba(255, 255, 255, 0.7);
+    --text-disabled: rgba(255, 255, 255, 54.42%);
+    --text-normal: rgba(255, 255, 255, 89.56%);
+    --accent-color: #135ef2;
+    --accent-color-1: #dc8111;
+    --accent-color-2: ;
+    --accent-color-3: ;
+    --border8: 8px;
+    --border4: 4px;
+    --normal: rgba(255, 255, 255, 3.19%);
+    --hover: rgba(255, 255, 255, 4.19%);
+    --selected: rgba(255, 255, 255, 6.05%);
+    --w11shadow: 10px 10px 15px 1px #00000020;
+    --win11shadow: 0 2px 4px #00000020;
+
+
+    /* box-shadow */
+    --elavation: 0px 7px 15px 0px rgba(0, 0, 0, 0.13),
+        0px 1px 4px 0px rgba(0, 0, 0, 0.11);
+    /* transition1*/
+    --transition1: .1s ease-in-out;
+    /* transition2*/
+    --transition2: margin-top .1s ease-in-out;
+
+
+
+
+
+    /***/
+
+    --gpText-HeadingLarge: normal 700 26px/1.4 "Segoe UI Variable Display", Arial, Sans-serif !important;
+    --gpText-HeadingMedium: normal 700 22px/1.4 "Segoe UI Variable Text", Arial, Sans-serif !important;
+    --gpText-HeadingSmall: normal 700 18px/1.4 "Segoe UI Variable Text", Arial, Sans-serif !important;
+    --gpText-BodyLarge: normal 400 16px/1.4 "Segoe UI Variable Text", Arial, Sans-serif !important;
+    --gpText-BodyMedium: normal 400 14px/1.4 "Segoe UI Variable Text", Arial, Sans-serif !important;
+    --gpText-BodySmall: normal 400 12px/1.4 "Segoe UI Variable Small", Arial, Sans-serif !important;
+
+    /* Round/Hard Edges */
+    --border0: 4px;
+    /* default 4px */
+    --border1: 10px;
+    /* default 10px */
+    --border2: 20px;
+    /* default 20px */
+    --border25: 25px;
+    /* default 25px */
+    --border35: 35px;
+    /* default 35px */
+    --border4: 40px;
+    /* default 40px */
+    --border5: 50px;
+    /* default 50px */
+    --border8: 80px;
+    /* default 80px */
+    --border50: 50%;
+    /* default 50% */
+}
+
+/* Scrollbar */
+
+body::-webkit-scrollbar-thumb {
+    background-clip: padding-box !important;
+    -webkit-box-shadow: none !important;
+    background-color: var(--scrollbar) !important;
+    border: 3px solid var(--darkgrey) !important;
+    border-radius: var(--border1) !important;
+    width: 35px !important
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: none !important;
+    background: var(--darkgrey) !important
+}
+
+body::-webkit-scrollbar {
+    background-clip: padding-box !important;
+    border: 5px solid transparent !important;
+    background-color: transparent !important
+}
+
+.DialogBody::-webkit-scrollbar {
+    display: none !important;
+    border: 5px solid transparent !important
+}
+
+/* Resolution Fix */
+@media only screen and (min-width:3000px) {
+    .responsive_page_content {
+        -webkit-transform: scale(2) !important;
+        -webkit-transform-origin: 50% 00% 0 !important
+    }
+
+    .modal_frame {
+        width: 66% !important;
+        height: 80% !important
+    }
+
+    #footer {
+        display: none !important
+    }
+}
+
+@media only screen and (min-width:3400px) {
+    .responsive_page_content {
+        -webkit-transform: scale(1) !important;
+        -webkit-transform-origin: 50% 00% 0 !important
+    }
+
+    .modal_frame {
+        width: 66% !important;
+        height: 80% !important
+    }
+
+    #footer {
+        display: none !important
+    }
+}
+
+@media only screen and (min-width:4000px) {
+    .responsive_page_content {
+        -webkit-transform: scale(2) !important;
+        -webkit-transform-origin: 50% 00% 0 !important
+    }
+
+    .modal_frame {
+        width: 66% !important;
+        height: 80% !important
+    }
+
+    #footer {
+        display: none !important
+    }
+}
+
+/* Main Code */
+html {
+    background: #252525 !important
+}
+
+.home_page_body_ctn {
+    margin-top: 70px !important;
+    background: #252525 !important;
+}
+
+
+/* ------------------------------------------/ HEADER /------------------------------------------------- */
+/* Header */
+div#store_header,
+div#store_header .content {
+    height: 70px !important;
+    top: 0 !important;
+    width: 100% !important;
+    backdrop-filter: blur(50px) !important;
+    background: #25252598 !important;
+    left: 0 !important;
+    position: fixed !important;
+    z-index: 999 !important;
+    border-bottom: var(--pbc10) !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .screenshots>div,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info .screenshots>div {
+    width: 75px !important;
+    height: 70px !important;
+    padding: 0px !important;
+    margin: 8px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    box-shadow: var(--w11shadow) !important;
+    border-radius: 5px !important;
+    background: #252525 !important;
+    border: var(--pbc50) !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .screenshots>div:hover,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info .screenshots>div:hover {
+    box-shadow: var(--elavation) !important;
+    transition: var(--transition2) !important;
+    margin-top: 4px !important;
+}
+
+.home_page_content .responsive_store_nav_ctn_spacer div#store_header .content {
+    position: absolute;
+    width: 100% !important;
+}
+
+.game_page_background.game .responsive_store_nav_ctn_spacer div#store_header .content {
+    position: relative !important;
+    width: 100% !important;
+    z-index: 300 !important;
+}
+
+div#store_header .content {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.store_header_btn_gray.store_header_btn {
+    position: relative !important;
+    background-color: rgba(255, 0, 0, 0) !important;
+    background-image: none !important;
+    width: auto !important;
+    height: 32px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    box-shadow: none;
+}
+
+#wishlist_link {
+    padding: 0 10px !important;
+    width: 18px !important;
+    text-transform: none !important;
+    height: 32px !important;
+    background-image: none !important;
+    background: transparent !important;
+    font-weight: 600 !important;
+    font-family: "Segoe UI Variable Small" !important;
+    font-size: 0px !important;
+    line-height: 12px !important;
+    display: flex;
+    text-shadow: transparent !important;
+    flex-direction: row !important;
+    align-items: center !important;
+}
+
+#wishlist_link:hover {
+    color: #fff;
+    background: #ffffff1a !important;
+    border-radius: 4px
+}
+
+#wishlist_link::before {
+    content: "";
+    margin-right: 12px !important;
+    font-family: FluentSystemIcons;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+}
+
+/* Wishlist buttons */
+.store_header_btn_green.store_header_btn {
+    position: relative !important;
+    background-color: rgba(255, 0, 0, 0) !important;
+    background-image: none !important;
+    width: auto !important;
+    height: 32px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    box-shadow: none;
+}
+
+.store_header_btn_green.store_header_btn:hover {
+    position: relative !important;
+    background-color: rgba(255, 0, 0, 0) !important;
+    background-image: none !important;
+    width: auto !important;
+    height: 32px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    box-shadow: none;
+}
+
+#cart_link,
+.cart_item_count_value {
+    height: 32px !important;
+    width: 18px !important;
+    padding: 0 10px !important;
+    text-transform: none !important;
+    background-image: none !important;
+    background: transparent !important;
+    font-weight: 600 !important;
+    font-family: "Segoe UI Variable Small" !important;
+    font-size: 0px !important;
+    line-height: 12px !important;
+    display: flex;
+    text-shadow: transparent !important;
+    flex-direction: row !important;
+    align-items: center !important;
+}
+
+#cart_link::before {
+    content: "";
+    margin-right: 12px !important;
+    font-family: FluentSystemIcons;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    animation-name: bounce;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    align-items: center !important;
+}
+
+@keyframes bounce {
+
+    2%,
+    18% {
+        transform: translate3d(-3px, 0, 0);
+        transition: Cubic-Bezier(0.85, 0, 0, 1);
+    }
+
+    4%,
+    16% {
+        transform: translate3d(3px, 0, 0);
+        transition: Cubic-Bezier(0.85, 0, 0, 1);
+    }
+
+    6%,
+    10%,
+    14% {
+        transform: translate3d(-3px, 0, 0);
+        transition: Cubic-Bezier(0.85, 0, 0.75, 1)
+    }
+
+    8%,
+    12% {
+        transform: translate3d(3px, 0, 0);
+        transition: Cubic-Bezier(0.85, 0, 0, 1)
+    }
+
+    18.1% {
+        transform: translate3d(0px, 0, 0);
+        transition: Cubic-Bezier(0.85, 0, 0, 1);
+    }
+}
+
+/*hover*/
+#cart_link:hover {
+    color: #fff;
+    background: #ffffff1a !important;
+    border-radius: 4px
+}
+
+.store_header_btn_gray.store_header_btn:hover {
+    background: transparent !important;
+    border-radius: 4px;
+}
+
+.store_header_btn_green.store_header_btn:hover {
+    background: transparent !important;
+    border-radius: 4px;
+}
+
+.store_nav .tab:hover>span,
+.store_nav .tab:hover,
+.store_nav .tab.focus>span,
+.store_nav .tab.focus {
+    border-radius: 20px !important;
+    background: transparent !important;
+}
+
+.store_nav .tab .span:hover {
+    border-radius: 20px !important;
+    background: #ffffff1a !important;
+}
+
+/*list*/
+/*your store*/
+.tab.flyout_tab#foryou_tab .pulldown .pulldown_desktop {
+    font-family: "Segoe UI Variable Small" !important;
+    font-size: 12px !important;
+    line-height: 12px !important;
+    display: flex;
+    flex-direction: row !important;
+    gap: 12px !important;
+    align-items: center !important;
+}
+
+.tab.flyout_tab#foryou_tab .pulldown {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+}
+
+.tab.flyout_tab#foryou_tab .pulldown::after {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 10px;
+    height: 1px !important;
+
+    background: green !important;
+}
+
+.tab.flyout_tab#foryou_tab .pulldown .pulldown_desktop::after {
+    content: "";
+    font-family: FluentSystemIcons;
+    font-size: 12px;
+}
+
+/*categories*/
+.tab.flyout_tab#genre_tab .pulldown .pulldown_desktop {
+    font-family: "Segoe UI Variable Small" !important;
+    font-size: 12px !important;
+    line-height: 12px !important;
+    display: flex;
+    flex-direction: row !important;
+    gap: 12px !important;
+    align-items: center !important;
+}
+
+.tab.flyout_tab#genre_tab .pulldown {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+}
+
+.tab.flyout_tab#genre_tab .pulldown .pulldown_desktop::after {
+    content: "";
+    font-family: FluentSystemIcons;
+    font-size: 12px;
+}
+
+.tab.flyout_tab#genre_tab .pulldown .pulldown_desktop::before {
+    content: "";
+    font-family: FluentSystemIcons;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*new & networth*/
+.tab.flyout_tab#noteworthy_tab .pulldown .pulldown_desktop {
+    font-family: "Segoe UI Variable Small" !important;
+    font-size: 12px !important;
+    line-height: 12px !important;
+    display: flex;
+    text-shadow: transparent !important;
+    flex-direction: row !important;
+    gap: 12px !important;
+    align-items: center !important;
+}
+
+.tab.flyout_tab#noteworthy_tab .pulldown {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+}
+
+.tab.flyout_tab#noteworthy_tab .pulldown .pulldown_desktop::after {
+    content: "";
+    font-family: FluentSystemIcons;
+    font-size: 12px;
+}
+
+.tab.flyout_tab#noteworthy_tab .pulldown .pulldown_desktop::before {
+    content: "";
+    font-family: FluentSystemIcons;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a.btnv6_blue_hoverfade.btn_medium.add_to_wishlist {
+    border-radius: 4px !important;
+    color: var(--text-normal) !important;
+    transition: .333s ease-in-out !important;
+    align-items: center !important;
+}
+
+a.btnv6_blue_hoverfade.btn_medium.add_to_wishlist:hover {
+    transition: .333s ease-in-out !important;
+    background: #ffffff15 !important;
+}
+
+a.btnv6_blue_hoverfade.btn_medium.add_to_wishlist::before {
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: calc(50% - 8px);
+    font-family: FluentSystemIcons !important;
+    color: var(--text-normal) !important;
+    font-weight: 400 !important;
+    margin: 0px 12px !important;
+    font-size: 16px !important;
+}
+
+a.btnv6_blue_hoverfade.btn_medium.add_to_wishlist>span {
+    padding: 0 12px 0 32px !important;
+    color: var(--text-normal) !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+#store_nav_area .store_nav_bg,
+.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+#store_nav_area .store_nav_bg,
+.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+#store_nav_area {
+    top: 10px !important;
+    height: auto;
+    display: flex !important;
+    flex-direction: column-reverse;
+    align-items: center !important;
+}
+
+div#store_controls {
+    position: initial !important;
+    top: 17px !important;
+    margin-right: -1000px;
+    display: flex;
+}
+
+.store_nav .tab.focus,
+.store_nav .tab.focus>span,
+.store_nav .tab:hover,
+.store_nav .tab:hover>span {
+    background: #0000002a !important;
+    color: var(--darkwhite) !important;
+    border-radius: var(--border0) !important;
+}
+
+.store_nav .tab {
+    display: flex !important;
+}
+
+.store_nav .tab img.foryou_avatar {
+    border-radius: var(--border35) !important;
+    width: 18px !important;
+    height: 18px !important;
+    margin-right: 10px !important;
+}
+
+.store_header_btn_gray a:hover {
+    background: var(--lightgrey) !important;
+    color: var(--white) !important
+}
+
+.searchbox {
+    background-image: none !important;
+    background-color: rgb(var(--dark-19), 0.33) !important;
+    border-radius: 4px !important;
+    border: 1px solid rgb(255 255 255 / 6%) !important;
+    border-bottom: var(--pbc) !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    margin-bottom: 0px !important;
+    outline: none !important;
+    height: 32px !important;
+    box-sizing: border-box !important;
+    margin-top: -2px !important;
+    padding: 0px 24px !important;
+}
+
+.searchbox input {
+    width: calc(100% - -20px - 8px) !important;
+    font-weight: bolder !important;
+    color: #666 !important;
+}
+
+.searchbox input.default::placeholder {
+    content: "Search for games, software, and more..." !important;
+    color: transparent !important;
+    font-size: 14px !important;
+    margin-top: 1px !important;
+    text-shadow: none !important;
+    font-style: normal !important;
+    font-family: "Segoe UI Variable Text" !important;
+}
+
+a#store_search_link img {
+    width: 16px !important;
+    height: 16px !important;
+    position: relative;
+    top: 0px !important;
+    background: transparent !important;
+    right: 0px !important;
+    background-image: none !important;
+}
+
+a#store_search_link img:hover {
+    background-color: #66666620 !important;
+    border-radius: 3px !important;
+    width: 24px !important;
+    height: 24px !important;
+    margin-left: -4px !important;
+    margin-top: -4px !important;
+}
+
+
+/*search icon text*/
+a#store_search_link::before {
+    content: "" !important;
+    right: 0 !important;
+    font-weight: 400 !important;
+    font-family: FluentSystemIcons;
+    position: absolute !important;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.69);
+}
+
+a#store_search_link {
+    position: absolute;
+    left: 7px !important;
+    height: 16px !important;
+    width: 16px !important;
+    top: 7px !important;
+}
+
+.store_nav .search_flex_spacer {
+    display: none !important;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------/ BODY /------------------------------------------------ */
+
+
+body.v6 .store_nav .popup_block_new .popup_body {
+    background: #252525 !important;
+    border-radius: 8px !important;
+}
+
+html.responsive body {
+    background: #252525 !important;
+}
+
+#home_gutter_recentlyviewed {
+    background: #252525 !important;
+}
+
+/* Top Banner */
+
+
+body:not(.no_home_gutter) .home_page_gutter {
+    margin-top: 15px !important;
+}
+
+body.v6 .store_nav .popup_block_new .popup_body {
+    background: #252525 !important;
+    margin-top: 10px !important;
+    border-radius: 10px !important;
+}
+
+body.v6 .page_content {
+    margin-top: 70px !important;
+}
+
+.home_ctn.tab_container,
+body.v6 .page_content_ctn.dark {
+    background: #252525 !important;
+}
+
+.fullscreen-bg {
+    width: 0% !important;
+}
+
+.page_background_holder {
+    margin: 10px 40px !important;
+    border-radius: 10px !important;
+    box-shadow: 1px 1px 10px 1px #00000020 !important;
+}
+
+.fullscreen-bg__video {
+    display: none !important;
+}
+
+.gradient_left,
+.gradient_right {
+    display: none !important;
+}
+
+.home_page_takeover_link {
+    margin: 10px 40px !important;
+    border-radius: 10px !important;
+}
+
+
+.home_page_takeover_link a {
+    margin: 10px 40px !important;
+    border-radius: 10px !important;
+    height: 450px !important;
+}
+
+
+/*navigation store*/
+.home_ctn {
+    background: #252525 !important;
+    padding-top: 12px !important;
+    padding-bottom: 0px !important;
+}
+
+/*title nuevos y destacados*/
+.home_cluster_ctn.home_ctn .home_page_content .home_page_content_title {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center !important;
+    font-family: "Segoe UI Variable Display";
+    color: rgba(255, 255, 255, 0.894) !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    padding: 12px 0px !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.home_cluster_ctn.home_ctn .home_page_content .home_page_content_title::before {
+    content: "";
+    font-family: FluentSystemIcons;
+    font-size: 18px;
+    margin-right: 12px !important;
+    font-weight: 400;
+}
+
+/*title special offers*/
+#module_special_offers .btnv6_white_transparent {
+    margin-left: 660px !important;
+}
+
+.home_ctn#module_special_offers .home_page_content.special_offers .home_page_content_title {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center !important;
+    font-family: "Segoe UI Variable Display";
+    color: rgba(255, 255, 255, 0.894) !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    padding: 12px 0px !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.home_ctn#module_special_offers .home_page_content.special_offers .home_page_content_title::before {
+    content: "";
+    margin-top: 1px;
+    font-family: FluentSystemIcons;
+    font-size: 18px;
+    display: flex;
+    font-weight: 500 !important;
+    align-items: center;
+    margin-right: 12px;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------/ Featured and recommended /------------------------------------- */
+/* Carousel */
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-right: 50px !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn {
+    height: auto !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 {
+    height: auto !important;
+}
+
+.carousel_container.maincap .carousel_items {
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    border: none !important;
+    grid-row: 1;
+    grid-column: 1 / 4;
+}
+
+.store_main_capsule,
+.store_main_capsule:hover {
+    background-image: none !important;
+}
+
+/*carrusel grid*/
+.carousel_container.maincap {
+    display: grid;
+    grid-template-rows: 1fr 38px;
+    grid-template-columns: 40px min-content 40px;
+    height: 380px;
+    margin-top: 5px;
+}
+
+.carousel_container.maincap .capsule .screenshot {
+    width: 100% !important;
+    transition: 1s ease-in-out !important;
+    height: 520px !important;
+    border-radius: 10px;
+    border: 1px solid #333 !important;
+    object-fit: cover !important;
+    object-position: 50% 50% !important;
+    background-position: center !important;
+}
+
+.carousel_container.maincap .capsule .screenshot:hover {
+    box-shadow: var(--win11shadow) !important;
+    transition: padding-left 1s ease-in-out !important;
+    padding-left: 20px !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .arrow.left {
+    position: relative !important;
+    grid-row: 1 / auto !important;
+    grid-column: 1 / auto !important;
+    justify-self: start !important;
+    align-self: center;
+    left: 4px !important;
+    top: -45px;
+    background-color: rgba(13, 13, 13, 0.605) !important;
+    backdrop-filter: blur(60px) saturate(6) !important;
+    box-shadow: var(--w11shadow) !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .arrow.right {
+    grid-row: 1 / auto !important;
+    grid-column: 3 / auto !important;
+    justify-self: end !important;
+    align-self: center;
+    left: -4px !important;
+    top: -45px;
+    background-color: rgba(13, 13, 13, 0.605) !important;
+    backdrop-filter: blur(60px) saturate(6) !important;
+    box-shadow: var(--w11shadow) !important;
+    position: relative !important;
+    margin-right: 50px;
+}
+
+/*carousel principal home*/
+
+.carousel_container .arrow {
+    background: transparent;
+    border-radius: 4px !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline .discount_prices .discount_final_price,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline .discount_prices .discount_final_price {
+    font-family: "Segoe UI Variable Display" !important;
+    line-height: normal !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline .discount_prices,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline .discount_prices .discount_original_price {
+    position: absolute !important;
+    top: 12px !important;
+    right: 12px !important;
+    z-index: 2 !important;
+    backdrop-filter: blur(50px) saturate(2) !important;
+    background: rgb(var(--dark-19), 0.59) !important;
+    border-radius: 4px !important;
+    border: var(--pbc) !important;
+    padding: 0 8px !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 26%) !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline {
+    position: absolute !important;
+    top: 12px !important;
+    left: none !important;
+    right: 12px !important;
+    z-index: 2 !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .screenshots>div,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info .screenshots>div {
+    width: 75px !important;
+    height: 70px !important;
+    padding: 0px !important;
+    margin: 8px !important;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .screenshots>div>div,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info .screenshots>div>div {
+    border-radius: 4px !important;
+    width: 75px !important;
+    height: 70px !important;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .screenshots,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info .screenshots {
+    display: flex !important;
+    margin-left: 0 !important;
+    width: auto !important;
+    margin-top: -40px;
+    z-index: 999;
+    margin-bottom: 20px;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .reason,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info .reason {
+    position: absolute !important;
+    z-index: 2 !important;
+    top: 60% !important;
+    left: 12px !important;
+    width: auto !important;
+
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .app_name,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info .app_name {
+    position: absolute !important;
+    top: 50% !important;
+    left: 12px !important;
+    font-family: "Segoe UI Variable Display" !important;
+    font-weight: 600 !important;
+    z-index: 2 !important;
+}
+
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info {
+    display: flex !important;
+    justify-content: center;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .capsule.main_capsule::before,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .capsule.main_capsule::before {
+    position: absolute !important;
+    content: "" !important;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 88%);
+    border-radius: 8px;
+    border: 1px solid #333 !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .capsule.main_capsule,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .capsule.main_capsule {
+    width: 100% !important;
+    height: 520px !important;
+    box-shadow: var(--w11shadow) !important;
+    margin: 0 !important;
+    margin-right: 50px !important;
+    object-fit: cover !important;
+    object-position: 50% 50% !important;
+    background-position: center !important;
+}
+
+a.store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.focus {
+    transform: translateX(0) !important;
+    animation: nasty .555s cubic-bezier(0.55, 0.55, 0, 1) !important;
+}
+
+@keyframes nasty {
+    0% {
+        transform: translateX(800px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn {
+    height: auto !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 {
+    height: auto !important;
+}
+
+.carousel_container.maincap .carousel_items {
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.store_main_capsule,
+.store_main_capsule:hover {
+    background-image: none !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline .discount_prices .discount_final_price,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline .discount_prices .discount_final_price {
+    font-family: "Segoe UI Variable Display" !important;
+    line-height: normal !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline .discount_prices,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline .discount_prices .discount_original_price {
+    position: absolute !important;
+    top: 12px !important;
+    left: none !important;
+    right: 12px !important;
+    z-index: 2 !important;
+    backdrop-filter: blur(50px) saturate(2) !important;
+    background: rgb(var(--dark-19), 0.59) !important;
+    border-radius: 4px !important;
+    border: var(--pbc) !important;
+    padding: 0 8px !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 26%) !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline {
+    position: absolute !important;
+    top: 12px !important;
+    left: none !important;
+    right: 12px !important;
+    z-index: 2 !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .screenshots>div,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info .screenshots>div {
+    width: 75px !important;
+    height: 70px !important;
+    padding: 0px !important;
+    margin: 8px !important;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .screenshots,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info .screenshots {
+    display: flex !important;
+    margin-left: 0 !important;
+    width: auto !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .reason,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info .reason {
+    position: absolute !important;
+    z-index: 2 !important;
+    top: 60% !important;
+    left: 12px !important;
+    width: auto !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .app_name,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info .app_name {
+    position: absolute !important;
+    top: 50% !important;
+    left: 12px !important;
+    font-family: "Segoe UI Variable Display" !important;
+    font-weight: 600 !important;
+    z-index: 2 !important;
+}
+
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .info {
+    display: flex !important;
+    justify-content: center;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .capsule.main_capsule::before,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule .capsule.main_capsule::before {
+    position: absolute !important;
+    content: "" !important;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 88%);
+    border-radius: 8px;
+}
+
+a.store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.focus {
+    transform: translateX(0) !important;
+    animation: nasty .555s cubic-bezier(0.55, 0.55, 0, 1) !important;
+}
+
+@keyframes nasty {
+    0% {
+
+        transform: translateX(800px);
+    }
+
+    100% {
+
+        transform: translateX(0);
+    }
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn {
+    height: auto !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 {
+    height: auto !important;
+}
+
+.carousel_container.maincap .carousel_items {
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/*carrusel styles*/
+/*page pipes */
+.carousel_container .carousel_thumbs {
+    display: flex !important;
+    justify-self: center;
+    align-items: center !important;
+    justify-content: center;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.carousel_container .carousel_thumbs>div {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 8px !important;
+}
+
+.carousel_container .carousel_thumbs>div.focus {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 12px !important;
+    transition: .2s ease-in-out;
+}
+
+.carousel_container .arrow>div {
+    background-image: none !important;
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.carousel_container .arrow.left {
+    left: 0 !important;
+    padding: 1px !important;
+    width: 16px !important;
+    height: 38px !important;
+    background: #25252520 !important;
+    backdrop-filter: blur(50px) !important;
+    box-shadow: var(--win11shadow) !important;
+    transform: scale(1) !important;
+    margin: 25px 0px 0px 5px !important;
+}
+
+.carousel_container .arrow.left:hover {
+    left: 0 !important;
+    padding: 0 !important;
+    width: 16px !important;
+    height: 38px !important;
+    background: transparent !important;
+    transform: scale(1.2);
+}
+
+.carousel_container .arrow.left:active {
+    left: 0 !important;
+    padding: 0 !important;
+    width: 16px !important;
+    height: 38px !important;
+    background: transparent !important;
+    transform: scale(0.9);
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.carousel_container .arrow.right {
+    right: 0 !important;
+    padding: 1px !important;
+    width: 16px !important;
+    height: 38px !important;
+    background: #25252520 !important;
+    backdrop-filter: blur(50px) !important;
+    box-shadow: var(--win11shadow) !important;
+    transform: scale(1) !important;
+    margin: 25px 0px 0px 5px !important;
+}
+
+.carousel_container .arrow.right:hover {
+    right: 0 !important;
+    padding: 0 !important;
+    width: 16px !important;
+    height: 38px !important;
+    background: transparent !important;
+    transform: scale(1.2);
+}
+
+.carousel_container .arrow.right:active {
+    right: 0 !important;
+    padding: 0 !important;
+    width: 16px !important;
+    height: 38px !important;
+    background: transparent !important;
+    transform: scale(0.9);
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.carousel_container .arrow.left ::before {
+    background-image: none !important;
+    position: absolute;
+    content: "";
+    font-family: FluentSystemIcons;
+    font-size: 8px;
+    top: calc(50% - 4px);
+    left: calc(50% - 4px);
+}
+
+.carousel_container .arrow.right ::before {
+    background-image: none !important;
+    position: absolute;
+    content: "";
+    font-family: FluentSystemIcons;
+    font-size: 8px;
+    top: calc(50% - 4px);
+    left: calc(50% - 4px);
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+
+.store_main_capsule,
+.store_main_capsule:hover {
+    background-image: none !important;
+}
+
+.store_main_capsule .capsule {
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------/ BODY /--------------------------------------------------- */
+/* take under banned under carousel */
+.home_page_takeunder {
+    border-radius: 10px;
+    border: var(--pbc) !important;
+    margin-bottom: 20px !important;
+}
+
+.home_page_content.takeunder a {
+    box-shadow: var(--w11shadow) !important;
+}
+
+.btnv6_white_transparent>span {
+    background-image: url(https://store.cloudflare.steamstatic.com/public/images/mobile/ResponsiveChevron.svg) !important;
+    background-size: 7px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    border-top: var(--pbc10) !important;
+    border-left: var(--pbc10) !important;
+    border-right: var(--pbc10) !important;
+    border-radius: 8px !important;
+    background-position-x: 90% !important;
+    background-position-y: center !important;
+    color: #d8d8d8 !important;
+    border-bottom: var(--p2pbc) !important;
+    height: 30px !important;
+    justify-content: left !important;
+    align-items: center;
+    display: flex !important;
+    transition: background 0.3s;
+    padding-right: 30px !important;
+    transition: all 0.3s !important;
+    box-shadow: 0px 0px 10px 0px #00000030 !important;
+}
+
+.btnv6_white_transparent>span:hover {
+    background-color: #66666620 !important;
+    border-top: var(--pbc10) !important;
+    border-left: var(--pbc10) !important;
+    border-right: var(--pbc10) !important;
+    color: #cacaca !important;
+    border-bottom: var(--p2pbc) !important;
+    background-position-x: 93% !important;
+    transform: translateY(0px) !important;
+    box-shadow: 0px 0px 15px 0px #00000030 !important;
+}
+
+.recommended_by_steam_labs_ctn .btnv6_white_transparent>span {
+    margin-top: -5px !important;
+}
+
+.recommended_creators_ctn .store_capsule .btnv6_white_transparent>span {
+    margin-top: 65px !important;
+}
+
+/* Special Offers Section */
+
+.home_area_spotlight {
+    transition: var(--transition1) !important;
+    border-radius: 8px !important;
+    background-image: none !important;
+    box-shadow: 0 2px 4px #00000020 !important;
+    background: #252525 !important;
+    border: var(--pbc50) !important;
+}
+
+.home_area_spotlight:hover {
+    transition: var(--transition2) !important;
+    margin-top: -4px !important;
+    box-shadow: var(--elavation) !important;
+}
+
+.spotlight_img {
+    border-radius: 7px !important;
+    box-sizing: border-box !important;
+    border-radius: 8px !important;
+}
+
+.spotlight_img a img {
+    height: 300px !important;
+    width: 100%;
+}
+
+.spotlight_content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(.../media/noise_1.png);
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.spotlight_content {
+    padding: 12px 12px 12px 12px !important;
+    background-image: none !important;
+    background: #25252590 !important;
+    margin: 0px !important;
+    width: 100% !important;
+    border-radius: 0px 0px 8px 8px !important;
+    border-top: var(--pbc50) !important;
+    min-height: 23px !important;
+    backdrop-filter: blur(50px) saturate(4) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    box-sizing: border-box !important;
+    box-shadow: var(--win11shadow) !important;
+}
+
+.spotlight_block .spotlight_content>h2,
+.spotlight_body {
+    font-family: "Segoe UI Variable Text", Sans-serif !important;
+    font-weight: 400 !important;
+    color: rgba(255, 255, 255, 89.52%) !important;
+}
+
+.spotlight_body.spotlight_price.price .discount_block.discount_block_spotlight.discount_block_large .discount_pct {
+    border-radius: 4px !important;
+    padding: 9px 12px !important;
+    border: var(--pbc40);
+    box-shadow: var(--win11shadow);
+}
+
+.store_capsule .discount_block.discount_block_large .discount_prices {
+    background: transparent !important;
+    border-radius: var(--border0) !important
+}
+
+.discount_block.discount_block_spotlight.discount_block_large .discount_prices {
+    line-height: normal !important;
+    padding: 9px 12px !important;
+    display: flex !important;
+    flex-direction: inherit !important;
+    align-items: center !important;
+    gap: 12px !important;
+    justify-content: center !important;
+    background: rgb(255 255 255 / 7%) !important;
+    border-radius: 0 4px 4px 0 !important;
+    margin-left: -1px !important;
+    border: var(--pbc4x0);
+    box-shadow: var(--win11shadow);
+}
+
+.discount_block_large .discount_pct,
+.discount_block_large .bundle_base_discount {
+    display: flex !important;
+    align-items: center !important;
+    line-height: 18px !important;
+    font-family: "Segoe UI Variable Text" !important;
+    font-size: 14px !important;
+    padding: 0 12px !important;
+}
+
+@font-face {
+    font-family: FluentSystemIcons;
+    src: url("https://steamloopback.host/skins/Fluenty/src/fonts/FluentSystemIcons-Resizable.woff2");
+}
+
+.discount_block.discount_block_spotlight.discount_block_large .discount_pct::before {
+    content: "";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 12px !important;
+    font-family: FluentSystemIcons !important;
+    font-size: 14px;
+}
+
+.discount_block_large .discount_pct,
+.discount_block_large .bundle_base_discount {
+    display: flex !important;
+    align-items: center !important;
+    line-height: 18px !important;
+    font-family: "Segoe UI Variable Text" !important;
+    font-size: 14px !important;
+    padding: 0 12px !important;
+}
+
+.discount_block.discount_block_spotlight.discount_block_large .discount_prices .discount_final_price {
+    line-height: 16px !important;
+    font-size: 12px !important;
+    font-family: "Segoe UI Variable Small" !important;
+    margin-top: -3px !important;
+}
+
+.discount_block.daily_deal_discount.discount_block_large {
+    position: absolute !important;
+    bottom: 0px !important;
+    left: 0 !important;
+    right: 0 !important;
+    backdrop-filter: blur(50px) saturate(4) !important;
+    background: #25252590 !important;
+    border-radius: 0px 0px 10px 10px !important;
+    box-sizing: border-box !important;
+    box-shadow: var(--win11shadow) !important;
+    padding: 12px !important;
+    border-top: var(--pbc50) !important;
+}
+
+.discount_block.daily_deal_discount.discount_block_large .discount_pct {
+    border-radius: 4px;
+    border: var(--pbc40);
+    box-shadow: var(--win11shadow);
+    z-index: 1;
+}
+
+.discount_block_large .discount_pct,
+.discount_block_large .bundle_base_discount {
+    display: flex !important;
+    align-items: center !important;
+    line-height: 18px !important;
+    font-family: "Segoe UI Variable Text" !important;
+    font-size: 14px !important;
+    padding: 0 12px !important;
+}
+
+.discount_block.daily_deal_discount.discount_block_large .discount_prices {
+    line-height: normal !important;
+    padding: 9px 12px !important;
+    display: flex !important;
+    flex-direction: inherit !important;
+    align-items: center !important;
+    gap: 12px !important;
+    justify-content: center !important;
+    background: rgb(255 255 255 / 7%) !important;
+    box-shadow: var(--win11shadow);
+    border: var(--pbc40);
+    margin-left: -3px;
+}
+
+.discount_block.daily_deal_discount.discount_block_large .discount_prices .discount_final_price {
+    line-height: 16px !important;
+    font-size: 12px !important;
+    font-family: "Segoe UI Variable Small" !important;
+    margin-top: -2px !important;
+}
+
+.info .discount_block.discount_block_inline,
+.info .discount_block.no_discount.discount_block_inline {
+    position: absolute !important;
+    bottom: auto;
+    top: 43% !important;
+    z-index: 2 !important;
+    left: 17px !important;
+}
+
+.info .discount_block.discount_block_inline .discount_pct {
+    padding: 9px 12px !important;
+    font-family: "Segoe UI Variable Small", Sans-serif !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    border-radius: 4px 0 0 4px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.info .discount_block.discount_block_inline .discount_pct::before {
+    content: "";
+    font-family: FluentSystemIcons;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.info .discount_block.no_discount.discount_block_inline .discount_prices .discount_final_price {
+    border-radius: 4px !important;
+    height: 30px !important;
+    min-width: 120px !important;
+    line-height: 20px !important;
+    padding: 4px 11px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 2 !important;
+    text-transform: normal !important;
+    color: rgba(255, 255, 255, 89.56%) !important;
+    font-family: "Segoe UI Variable Text" !important;
+    font-size: 14px !important;
+    letter-spacing: normal !important;
+    position: relative !important;
+    background: rgba(255, 255, 255, 0.06) !important;
+    border: none !important;
+    text-shadow: 2px 1px 1px black !important;
+    box-sizing: content-box !important;
+}
+
+.info .discount_block.no_discount.discount_block_inline .discount_prices .discount_final_price::before {
+    box-sizing: content-box !important;
+    content: "";
+    left: 0 !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    position: absolute !important;
+    inset: -1px;
+    padding: 1px !important;
+    border-radius: 4px !important;
+    z-index: -2 !important;
+    bottom: 0 !important;
+    background: linear-gradient(250deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.06) 5%) !important;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0) !important;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0) !important;
+    -webkit-mask-composite: xor !important;
+    mask-composite: exclude !important;
+}
+
+.info .discount_block.no_discount.discount_block_inline .discount_prices .discount_final_price::after {
+    content: "";
+    z-index: -2;
+    border-radius: 4px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(275deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 5%), rgba(255, 255, 255, 25%), rgba(255, 255, 255, 45%), rgba(255, 255, 255, 60%), rgba(255, 255, 255, 45%), rgba(255, 255, 255, 25%), rgba(255, 255, 255, 5%), rgba(255, 255, 255, 0) 70%);
+    animation: flama 3s infinite ease-in-out;
+    background-size: 400% 400%;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline .discount_prices,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline .discount_prices .discount_original_price {
+    position: absolute !important;
+    top: 12px !important;
+    left: none !important;
+    right: 12px !important;
+    z-index: 2 !important;
+    backdrop-filter: blur(50px) saturate(2) !important;
+    background: rgb(var(--dark-19), 0.59) !important;
+    border-radius: 4px !important;
+    border: 1px solid #00000020 !important;
+    padding: 0 8px !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 26%) !important;
+}
+
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline .discount_prices .discount_final_price,
+.carousel_container.maincap#home_maincap_v7 .carousel_items.responsive_scroll_snap_ctn .store_main_capsule.responsive_scroll_snap_start.broadcast_capsule.app_impression_tracked .info .discount_block.no_discount.discount_block_inline .discount_prices .discount_final_price {
+    font-family: "Segoe UI Variable Display" !important;
+    line-height: normal !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+.carousel_container.spotlight .carousel_items>* .store_capsule {
+    height: 186px;
+    border-radius: 10px;
+    border: var(--pbc50) !important;
+    box-shadow: var(--win11shadow) !important;
+    background-image: none !important;
+}
+
+.carousel_container.spotlight .carousel_items>* .store_capsule.daily_deal {
+    background: #252525 !important;
+}
+
+.store_capsule {
+    background: #252525 !important;
+}
+
+.store_capsule .capsule>img {
+    border-radius: 10px !important;
+}
+
+/* End of Special Offers Section */
+
+/* ------------------------------------------------------------------------------------*/
+
+/* Hardware banners */
+
+.home_hardware_banner>a {
+    margin-bottom: 10px !important;
+}
+
+.home_hardware_banner>a:hover {
+    box-shadow: none !important;
+}
+
+.home_hardware_banner img {
+    border-radius: 10px !important;
+    box-shadow: var(--win11shadow) !important;
+    border: var(--pbc50) !important;
+}
+
+/* End of Hardware banners */
+
+
+
+.content_hub_carousel_ctn .content_hub_capsule_ctn {
+    box-shadow: var(--win11shadow);
+    transition: var(--transition1) !important;
+    position: inherit !important;
+    height: 270px !important;
+}
+
+.content_hub_carousel_ctn .content_hub_capsule_ctn:hover {
+    transition: var(--transition2) !important;
+    margin-top: 12px !important;
+    box-shadow: var(--elavation) !important;
+}
+
+.content_hub_carousel_ctn .content_hub_capsule_ctn img {
+    border-radius: 8px !important;
+    box-sizing: border-box !important;
+    border: var(--pbc40) !important;
+    background: border-box !important;
+    height: 250px !important;
+}
+
+.content_hub_capsule_ctn .gradient {
+    /*position: absolute !important;
+    bottom: 0 !important;
+    top: inherit !important;
+    height: 25% !important;
+    width: 100% !important;
+    border-radius: 0 0 8px 8px !important;
+    border: var(--pbc40) !important;
+    box-sizing: border-box !important;
+    background: #2e2e2e6c !important;
+    backdrop-filter: blur(50px) saturate(2) !important;*/
+    display: none !important;
+}
+
+.content_hub_capsule_ctn .label {
+    display: inherit;
+    font-size: 14px !important;
+    align-content: center;
+    margin-top: 10px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0 !important;
+    text-transform: capitalize !important;
+    font-family: 'Segoe UI Variable Text' !important;
+    color: rgba(255, 255, 255, 89.52%) !important;
+    text-overflow: none !important;
+    text-shadow: none !important;
+}
+
+.content_hub_capsule_ctn .label_ctn {
+    position: relative !important;
+    bottom: 50px !important;
+    height: 40px !important;
+    margin-top: 10px !important;
+    border-radius: 0 0 8px 8px !important;
+    background: #23232390 !important;
+    backdrop-filter: blur(50px) !important;
+    text-align: center !important;
+    width: 89% !important;
+    padding: 11.5px !important;
+    border: var(--pbc50) !important;
+}
+
+.content_hub_capsule_ctn:hover {
+    transform: none !important;
+    transition: none !important;
+}
+
+.content_hub_capsule_ctn .gradient:hover {
+    filter: none !important;
+}
+
+/* Steam Footer being blue */
+body.v6 #footer {
+    background: #252525 !important;
+}
+
+body.v6 h2 {
+    text-transform: none !important;
+    font-family: "Segoe UI Variable Text" !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: rgba(255, 255, 255, 0.894) !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    padding: 0px 0px 12px !important;
+    margin: 0 0 12px 0 !important;
+    border-bottom: var(--pbc50) !important;
+}

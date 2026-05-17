@@ -1,0 +1,45 @@
+:root {
+    --background-fill-color-layer-default: rgb(var(--dark-3a), 0.3);
+
+    --settings-sidebar-btn-bg: rgb(var(--dark-2d));
+    --settings-sidebar-hover-bg: rgb(var(--dark-29));
+    --settings-sidebar-hover-not-select: rgb(var(--dark-32), 0.42);
+
+    --compact-mode-navbar-button-col: rgb(var(--dark-30), 0.49);
+
+    --settings-button-col: rgb(var(--dark-37));
+    --settings-groupbox-bg: rgb(var(--dark-2b));
+    --settings-mdl-bg: rgb(var(--dark-20));
+    --window-bg: rgb(var(--dark-1b));
+    --nosidebar-title: rgb(var(--dark-21), 0.46);
+    --titlebar-color: rgb(var(--dark-1b), 0.82);
+    --background-col: rgb(var(--dark-21));   
+    --accent-col: rgb(var(--dark-20)); 
+    --color-darker: rgb(var(--dark-19));
+    --color-darkest: rgb(var(--dark-14));
+    --color-light: rgb(var(--dark-30));
+    --border-color: rgb(var(--dark-1d));
+    --border-color-secondary: rgb(var(--dark-3a));
+    --accent-secondary: rgb(var(--dark-37));
+    --focusable-col: rgb(var(--dark-2b));
+    --input-border-col: rgb(var(--dark-30));
+
+    --context-menu-bg: 37, 37, 37;
+    --tray-menu-bg: 40, 40, 40;
+
+    --dark-13: 19, 19, 19;
+    --dark-14: 20, 20, 20;
+    --dark-19: 25, 25, 25;
+    --dark-1b: 27, 27, 27;
+    --dark-1d: 29, 29, 29;
+    --dark-20: 32, 32, 32;
+    --dark-21: 33, 33, 33;
+    --dark-29: 41, 41, 41;
+    --dark-2b: 43, 43, 43;
+    --dark-2d: 45, 45, 45;
+    --dark-30: 48, 48, 48;
+    --dark-31: 49, 49, 49;
+    --dark-32: 50, 50, 50;
+    --dark-37: 55, 55, 55;
+    --dark-3a: 58, 58, 58;
+}

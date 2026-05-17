@@ -1,0 +1,30 @@
+@import url(../variables.css);
+
+.PP7LM0Ow1K5qkR8WElLpt.visible._2yAm5LY_eu-Vg_52l0HFlM {
+    background: rgb(var(--dark-2d)) !important;
+    background-color: rgb(var(--dark-2d)) !important;
+    backdrop-filter: blur(22px);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    border-radius: 8px !important;
+    border: 0.5px solid rgb(var(--dark-19), 0.66) !important;
+}
+
+#popup_target {
+    background-color: rgb(var(--dark-2d)) !important;
+}
+
+._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem {
+    border: 0.5px solid transparent !important;
+}
+
+.contextMenuItem:not(.Z5iAXBkRFGnwpXsO8ANTl):hover {
+    background: var(--background-col) !important;
+    color: #fff !important;
+}
+
+._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+    background: #0000004d !important;
+    border: 0.5px solid #2828284d !important;
+    border-radius: 6px !important;
+}

@@ -1,0 +1,675 @@
+@import url(../../titlebar/frameBar.css);
+
+* {
+    font-family: var(--text-font-family) !important;
+}
+
+.window_resize_grip {
+    height: 0 !important;
+}
+
+.aFxOaYcllWYkCfVYQJFs0.DesktopUI,
+.DesktopUI .aFxOaYcllWYkCfVYQJFs0 {
+    -webkit-mask-image: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    margin: 0;
+    background-color: transparent;
+    overflow: overlay;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px !important;
+    background-color: #9F9F9F !important;
+    border-radius: 16px !important;
+}
+
+.activeIndicator {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 7px;
+    height: 34px;
+    transition: top 0.15s cubic-bezier(1, 0, 0, 1);
+}
+
+.activeIndicator::before {
+    content: "";
+    width: 3px;
+    height: 16px;
+    border-radius: 1.5px;
+    background: rgba(96, 205, 255, 0.9);
+}
+
+.DialogHeader {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-weight: 500 !important;
+    font-size: 26px !important;
+}
+
+.LclHwcOfHFpwObYMD1HLa,
+.DialogContent {
+    background: rgb(var(--dark-20));
+    background-image: rgb(var(--dark-20)) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.LclHwcOfHFpwObYMD1HLa::before,
+.DialogContent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../../media/noise_1.png);
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../../media/noise_1.png);
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+._18QCu-7MTzd51UpVbYysDy ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR svg {
+    display: none !important;
+}
+
+._18QCu-7MTzd51UpVbYysDy ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR::before {
+    border-radius: 4px !important;
+    text-align: center;
+    color: #fff;
+    font-size: 20px !important;
+    line-height: 18px !important;
+    margin-right: 15px !important;
+    font-family: FluentSystemIcons !important;
+}
+
+._1Hye7o1wYIfc9TE9QKRW4T {
+    background: rgb(var(--dark-31)) !important;
+}
+
+._1-vlriAtKYDViAEunue4VO {
+    border-radius: 4px !important;
+    margin: 5px 5px 0px 5px !important;
+    padding: 8px 16px 8px 10px !important;
+    margin-left: 16px !important;
+    scrollbar-width: none;
+}
+
+._1-vlriAtKYDViAEunue4VO:hover {
+    background: rgb(var(--dark-32), 0.42) !important;
+    color: #fff !important;
+}
+
+._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 {
+    background: rgb(var(--dark-2d)) !important;
+}
+
+._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7:hover {
+    background: rgb(var(--dark-29)) !important;
+}
+
+._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 {
+    background: rgb(var(--dark-2d)) !important;
+}
+
+._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7:hover {
+    background: rgb(var(--dark-29)) !important;
+}
+
+.S-_LaQG5eEOM2HWZ-geJI.XRBFu6jAfd5kH9a3V8q_x:not(._33Q-MOeBz52WPV0tuTqKy) {
+    padding: 25px;
+    border-radius: 4px !important;
+    background: rgb(var(--dark-2b)) !important;
+    margin-bottom: 3px !important;
+    border: 0.5px solid rgb(var(--dark-1d)) !important;
+}
+
+.S-_LaQG5eEOM2HWZ-geJI._3s1Rkl6cFOze_SdV2g-AFo::after {
+    height: 0px !important;
+}
+
+.XvRsoF63hkSPNVBr2XPVI {
+    border: 0.5px solid rgb(var(--dark-3a));
+    border-radius: 6px;
+    background: rgb(var(--dark-37));
+}
+
+button.UqEiVDhZ47cn3vWxM7cR0.TEWmsM70ZLEOxLAjDMpcv.DialogButton._DialogLayout.Secondary.Focusable {
+    background: rgb(var(--dark-37)) !important;
+}
+
+button._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable {
+    border: 0.5px solid rgb(var(--dark-3a));
+    border-radius: 6px;
+    background: rgb(var(--dark-37));
+    height: 14px !important;
+    padding: 6px 14px 10px 14px;
+}
+
+button._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable:hover {
+    background: #3C3C3C;
+}
+
+._2JtC3JSLKaOtdpAVEACsG1 {
+    background: #272727 !important;
+    border: 1px solid #9E9E9E;
+    height: 18px !important;
+}
+
+._3__ODLQXuoDAX41pQbgHf9 {
+    width: 12px !important;
+    top: 4px !important;
+    height: 12px !important;
+    left: 4px !important;
+    background: #CECECE !important;
+}
+
+._2JtC3JSLKaOtdpAVEACsG1::before {
+    transform: translateX(-36px);
+    transition: none !important;
+    background: #595959 !important;
+    /* border: none !important; */
+}
+
+._24G4gV0rYtRbebXM44GkKk._3ld7THBuSMiFtcB_Wo165i ._2JtC3JSLKaOtdpAVEACsG1::before {
+    transform: translateX(0px) !important;
+}
+
+._3ld7THBuSMiFtcB_Wo165i ._2JtC3JSLKaOtdpAVEACsG1 {
+    border: none;
+    height: 20px !important;
+}
+
+._3ld7THBuSMiFtcB_Wo165i ._3__ODLQXuoDAX41pQbgHf9 {
+    background: #000 !important;
+    transform: translateX(18px) !important;
+    transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s;
+}
+
+._24G4gV0rYtRbebXM44GkKk:not(._1pmyxI3wxLrWwGnc52yVns):hover {
+    box-shadow: none !important;
+}
+
+._24G4gV0rYtRbebXM44GkKk:hover>._3__ODLQXuoDAX41pQbgHf9 {
+    width: 23px !important;
+    width: 14px !important;
+    top: 3px !important;
+    height: 14px !important;
+    border-radius: 15px !important;
+    left: 3px !important;
+}
+
+/* Transition checkmark on and off */
+._3__ODLQXuoDAX41pQbgHf9 {
+    transition: transform .2s !important;
+}
+
+/* remove box shadow from button hover */
+button.DialogButton::before {
+    box-shadow: none !important;
+}
+
+._2rjVTGz8aLvqOdz5v2gq5C {
+    position: absolute;
+    top: 6px;
+    font-size: 12px;
+    text-transform: none !important;
+    color: white !important;
+    font-weight: 400 !important;
+}
+
+._2rjVTGz8aLvqOdz5v2gq5C::after {
+    content: " • Properties";
+    color: #ffffff8c !important;
+}
+
+._18QCu-7MTzd51UpVbYysDy.Panel {
+    margin-top: 40px;
+}
+
+.maximizeButton .title-area-icon-inner:hover,
+.minimizeButton .title-area-icon-inner:hover,
+.restoreButton .title-area-icon-inner:hover {
+    background: #4A4A4A;
+}
+
+._2rjVTGz8aLvqOdz5v2gq5C {
+    margin-top: 10px;
+}
+
+._1-vlriAtKYDViAEunue4VO {
+    max-width: none !important;
+}
+
+.DialogDropDown {
+    padding: 6px 6px 6px 12px !important;
+    border: .5px solid #3F3F3F !important;
+    background: rgb(var(--dark-37)) !important;
+}
+
+.DialogDropDown:hover {
+    background: #3C3C3C !important;
+    box-shadow: none !important;
+}
+
+.DialogDropDown_Arrow::before {
+    content: "";
+    font-family: FluentSystemIcons;
+    margin-right: -5px;
+}
+
+.DialogDropDown_Arrow svg {
+    display: none;
+}
+
+._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer {
+    padding: 5px;
+    border-radius: 7px;
+    border: 0.5px solid rgb(var(--dark-20));
+    box-shadow: none !important;
+    margin-bottom: 0px !important;
+    background: #2C2C2C !important;
+    max-width: 535px !important;
+}
+
+.DialogMenuPosition.visible._1S6CCCQlcTTAAHh3LMTLh1 {
+    background: none !important;
+    box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, .2);
+    border-radius: 7px;
+}
+
+._2oAiZidGyUxL-hfupFDQ2m {
+    border-radius: 4px;
+    padding: 8px 15px 12px 15px;
+}
+
+._2oAiZidGyUxL-hfupFDQ2m:hover {
+    background: rgb(var(--dark-13)) !important;
+}
+
+._2OJfkxlD3X9p8Ygu1vR7Lr {
+    color: #929292 !important;
+}
+
+._1ml4SNc3LIyBDHIf8ekVSw.Shared_Radio_Group.Panel {
+    margin-bottom: 3px;
+    border-radius: 4px;
+    background: rgb(var(--dark-2b)) !important;
+    box-shadow: none !important;
+    border: 0.5px solid rgb(var(--dark-1d)) !important;
+}
+
+.HijmccPB1BKyhOwhX1EVl.RadioButton.Focusable:not(._3-_jME_xsuvgT3Dvq4bw_q) {
+    border: .5px solid #3F3F3F !important;
+    background: rgb(var(--dark-37)) !important;
+}
+
+.HijmccPB1BKyhOwhX1EVl.RadioButton.Focusable:hover:not(._3-_jME_xsuvgT3Dvq4bw_q) {
+    background: #3C3C3C !important;
+}
+
+.HijmccPB1BKyhOwhX1EVl.RadioButton._3-_jME_xsuvgT3Dvq4bw_q.Focusable {
+    background: #595959 !important;
+    border: 0.5px solid #666666 !important;
+    color: #000 !important;
+    font-weight: 400;
+}
+
+.HijmccPB1BKyhOwhX1EVl.RadioButton._3-_jME_xsuvgT3Dvq4bw_q.Focusable:hover {
+    background: #555555 !important;
+}
+
+._24G4gV0rYtRbebXM44GkKk._3ld7THBuSMiFtcB_Wo165i.Focusable::before {
+    content: "On";
+    margin-left: -30px;
+    font-size: 14px;
+    color: white;
+}
+
+._24G4gV0rYtRbebXM44GkKk.Focusable::before {
+    content: "Off";
+    margin-left: -30px;
+    font-size: 14px;
+    color: white;
+}
+
+._2KFeE_s51aT07ohdMu_ZH1 {
+    border-radius: 4px !important;
+    background: rgb(var(--dark-2b)) !important;
+    margin-bottom: 3px !important;
+    border: 0.5px solid rgb(var(--dark-1d)) !important;
+}
+
+._1u5y7VbwvOwncjMsMqnFUz.Panel {
+    background: rgb(var(--dark-2b)) !important;
+    border-top: 0.5px solid rgb(var(--dark-1d)) !important;
+    box-shadow: none !important;
+    display: block !important;
+}
+
+.DialogCheckbox.Active {
+    border-radius: 4px;
+    box-shadow: none !important;
+    background: #595959;
+}
+
+.DialogCheckbox.Active:hover {
+    background: #535353 !important;
+}
+
+/* .DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled), .DialogCheckbox:hover:not(.Disabled), .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled), .DialogCheckbox:focus:not(.Disabled) {
+    background: #535353 !important;
+} */
+.DialogCheckbox {
+    height: 20px;
+    width: 20px;
+}
+
+.DialogCheckbox.Active::before {
+    content: "";
+    font-family: FluentSystemIcons;
+    color: #000;
+    font-size: 16px;
+    /* margin-bottom: 6px; */
+    margin-left: 2px;
+}
+
+.DialogCheckbox svg {
+    display: none !important
+}
+
+.DialogCheckbox:not(.Active) {
+    background: rgb(var(--dark-1d)) !important;
+    border: 0.5px solid #999999;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.DialogCheckbox:not(.Active) {
+    background: #2A2A2A !important;
+}
+
+button._3aB-C2eTsfVtvZR5sC9N_r.DialogButton._DialogLayout.Small.Focusable {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+button._3aB-C2eTsfVtvZR5sC9N_r {
+    width: 16px !important;
+    height: 16px !important;
+    padding-right: 10px;
+}
+
+button._3aB-C2eTsfVtvZR5sC9N_r:not(.WCaU2nUGonBQ-0INHRlgk)::before {
+    content: "";
+    font-family: FluentSystemIcons;
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 18px !important;
+    padding-top: px !important;
+    margin-top: -5px;
+}
+
+button._3aB-C2eTsfVtvZR5sC9N_r.WCaU2nUGonBQ-0INHRlgk::before {
+    content: "";
+    font-family: FluentSystemIcons;
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 18px !important;
+    transform: rotate(180deg);
+    padding-bottom: 15px;
+}
+
+.DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled),
+.DialogCheckbox:hover:not(.Disabled),
+.DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled),
+.DialogCheckbox:focus:not(.Disabled) {
+    background: #545454;
+}
+
+.DialogBodyText._3fPiC9QRyT5oJ6xePCVYz8 {
+    margin-bottom: 0px !important;
+    display: none !important;
+}
+
+.DialogSubHeader._2rK4YqGvSzXLj1bPZL8xMJ {
+    text-transform: none;
+    color: white;
+    font-size: 14px;
+}
+
+button._3aB-C2eTsfVtvZR5sC9N_r svg {
+    display: none !important;
+}
+
+._33Q-MOeBz52WPV0tuTqKy {
+    background: none !important;
+    padding-right: 35px;
+    margin-top: -40px;
+    padding-bottom: 10px !important;
+    text-transform: none !important;
+    font-size: 11px !important;
+}
+
+input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
+    border: 0.5px solid rgb(var(--dark-3a));
+    border-radius: 6px;
+    background: rgb(var(--dark-37));
+    height: 14px !important;
+    padding: 8px 14px 8px 14px;
+}
+
+.DesktopUI .DialogTextInputBase:focus,
+.DialogTextInputBase:focus-within {
+    box-shadow: none !important;
+    border: 0.5px solid #66666685 !important;
+}
+
+button._30Og77vH37EtqaKCCDIAP9.DialogButton._DialogLayout.Secondary.Focusable {
+    border: 0.5px solid rgb(var(--dark-3a)) !important;
+    border-radius: 6px;
+    background: rgb(var(--dark-37)) !important;
+    height: 32px !important;
+    min-height: unset !important;
+    width: 32px !important;
+    box-sizing: border-box !important;
+}
+
+button._30Og77vH37EtqaKCCDIAP9.DialogButton._DialogLayout.Secondary.Focusable svg {
+    height: 14px !important;
+    width: 14px !important;
+}
+
+.DialogSubHeader {
+    font-size: 14px;
+    text-transform: none !important;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+._1-nHjRywUoX7Mpyc6JOPaQ.Qeg4qAFIMLaYd3mHOBndS {
+    background: rgb(var(--dark-37));
+}
+
+._2_0JonK7eKEvh8IoOvq0-B {
+    background: #4C4C4C !important;
+}
+
+.Mq25Nap224hVdTdtXSsnq {
+    background: #9F9F9F !important;
+    --left-track-color: #595959 !important;
+    height: 4px !important;
+}
+
+._2yVKjlAVW3txkGmVpX9G8i {
+    border: 5px solid #454545 !important;
+    box-sizing: border-box;
+    height: 22px !important;
+    width: 22px !important;
+    background: #595959 !important;
+    top: 1px !important;
+    right: 1px !important;
+    box-shadow: none !important;
+    transition: border 0.1s;
+}
+
+._3o137DBNF03ytbLBl2jPri:hover>._1pQZiklDl2xXiNsZ6Uvy_a>._2yVKjlAVW3txkGmVpX9G8i {
+    border: 3px solid #454545 !important;
+}
+
+._2RCSUgg2X_uF_C0e1lrcqc.Panel:hover {
+    /* padding: 6px 6px 6px 12px !important; */
+    border: .5px solid #3F3F3F !important;
+    background: rgb(var(--dark-37)) !important;
+    box-sizing: border-box !important;
+    border-radius: 6px;
+}
+
+._2RCSUgg2X_uF_C0e1lrcqc.Panel {
+    border: .5px solid transparent !important;
+}
+
+._3rGEUoEnGkGWALEBzbvfef {
+    border: .5px solid #3F3F3F !important;
+    background: rgb(var(--dark-37)) !important;
+    box-sizing: border-box !important;
+    border-radius: 4px;
+    padding: 16px !important;
+}
+
+.ybEU2kARViIFGigPw8VQ0 {
+    padding-top: 8px !important;
+}
+
+._1WKUOT3FdB9-48MMP0Tz9l.Focusable {
+    background: #4a4a4a !important;
+    border: 0.5px solid #6666664a;
+}
+
+._1rihlgVMF4Q_fFZDnXeVt5 {
+    color: #fff !important;
+}
+
+.r3hOLjghfVd2FkvKjlsrO._1wvuEFDaiHcn5QErl3Lghh {
+    border-top: 0 !important;
+}
+
+._2evqiY8KoRX_WVvTUfmCWt._3lj3-GDYOlcoIFB3fFo1ko {
+    border-radius: 4px !important;
+    background: rgb(var(--dark-2b)) !important;
+    margin-bottom: 3px !important;
+    border: 0.5px solid rgb(var(--dark-1d)) !important;
+    font-weight: normal;
+    color: #929292;
+    margin-left: 0px !important;
+}
+
+._1Ym7esAMrM-Be9YZ3fC54v._2H4LypEOvoKY3pHtDIpt5l {
+    margin-left: 0px !important;
+    color: #929292 !important;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody {
+    color: #929292 !important;
+}
+
+._3zuICQ63IRympzZ6qgs-5O {
+    color: white !important;
+    text-transform: none !important;
+    font-weight: normal !important;
+}
+
+._1SKB0Xc7OpWlOlr-wSi8ho {
+    background: rgb(var(--dark-37)) !important;
+    text-transform: none !important;
+}
+
+._3sXdOJ9DEh5zdS54_ptwgW {
+    box-shadow: none !important;
+    border-radius: 6px;
+    border: 0.5px solid rgb(var(--dark-3a)) !important;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW {
+    background: rgb(var(--dark-2b)) !important;
+}
+
+._134yW7SKfZYwmvwlUElGx- {
+    background: rgb(var(--dark-2b)) !important;
+    box-shadow: none !important;
+    border: 0.5px solid rgb(var(--dark-3a)) !important;
+    border-radius: 4px !important;
+}
+
+._3DEhfTvEKwgLd4smd6QdaU {
+    border: 0.5px solid rgb(var(--dark-3a)) !important;
+    border-radius: 4px !important;
+    background: rgb(var(--dark-37)) !important;
+}
+
+._1d8CbcBnA6t3lsxYdnMv1h {
+    border: 0.5px solid rgb(var(--dark-3a)) !important;
+    box-sizing: border-box;
+    background: rgb(var(--dark-2b)) !important;
+    margin: 10px 10px 10px 0px !important;
+}
+
+button.DialogButton._DialogLayout.Secondary.Focusable {
+    border: 0.5px solid rgb(var(--dark-3a)) !important;
+    border-radius: 6px;
+    background: rgb(var(--dark-37), 0.61) !important;
+    padding: 6px 14px 10px 14px !important;
+}
+
+.DialogCheckbox.Active {
+    border-radius: 4px;
+    box-shadow: none !important;
+    background: #595959;
+}
+
+.DialogCheckbox.Active:hover {
+    background: #535353 !important;
+}
+
+.DialogCheckbox {
+    height: 20px;
+    width: 20px;
+}
+
+.DialogCheckbox.Active::before {
+    content: "";
+    font-family: FluentSystemIcons;
+    color: #000;
+    font-size: 16px;
+    margin-left: 2px;
+}
+
+.DialogCheckbox svg {
+    display: none !important
+}
+
+.DialogCheckbox:not(.Active) {
+    background: rgb(var(--dark-1d)) !important;
+    border: 0.5px solid #999999;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.DialogCheckbox:not(.Active) {
+    background: #2A2A2A !important;
+}

@@ -1,0 +1,897 @@
+@import url(../titlebar/frameBar.css);
+
+.ModalDialogPopup html.client_chat_frame body,
+.ModalDialogPopup html.web_chat_frame body {
+	background: transparent !important;
+}
+
+/* Set the font */
+.ModalDialogPopup * {
+	font-family: var(--text-font-family) !important;
+	font-weight: normal !important;
+}
+
+html body .PopupFullWindow .window-controls .title-area-icon-inner {
+	font-family: FluentSystemIcons !important;
+}
+
+/* stop the resize grip from displaying */
+.ModalDialogPopup .window_resize_grip {
+	height: 0 !important;
+}
+
+/* remove blur on settings header */
+.ModalDialogPopup .aFxOaYcllWYkCfVYQJFs0.DesktopUI,
+.ModalDialogPopup .DesktopUI .aFxOaYcllWYkCfVYQJFs0 {
+	-webkit-mask-image: none !important;
+}
+
+.ModalDialogPopup ::-webkit-scrollbar {
+	width: 10px;
+	margin: 0;
+	background-color: transparent;
+	overflow: overlay;
+}
+
+/* Change the width of the scrollbar thumb (the draggable part) */
+.ModalDialogPopup ::-webkit-scrollbar-thumb {
+	width: 10px !important;
+	background-color: #9f9f9f !important;
+	border-radius: 16px !important;
+}
+
+.ModalDialogPopup .activeIndicator {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 7px;
+	height: 34px;
+	transition: top 0.15s cubic-bezier(1, 0, 0, 1);
+}
+
+.ModalDialogPopup .activeIndicator::before {
+	content: '';
+	width: 3px;
+	height: 16px;
+	border-radius: 1.5px;
+	background: var(--SystemAccentColor, rgba(96, 205, 255, 0.9));
+	opacity: var(--indicator-col, 0);
+}
+
+.ModalDialogPopup .DialogHeader {
+	padding-top: 30px;
+	padding-bottom: 5px;
+	font-weight: 500 !important;
+	font-size: 26px !important;
+}
+
+.ModalDialogPopup .DialogContent,
+.ModalDialogPopup .DialogContentTransition {
+	background: transparent !important;
+}
+
+.ModalDialogPopup .LclHwcOfHFpwObYMD1HLa,
+.ModalDialogPopup .DialogContent,
+.ModalDialogPopup ._2kwFFHckg8jvnwJfg9-la8,
+.ModalDialogPopup ._2y2tUbsMx8OIwkimGSyHmb,
+.ModalDialogPopup ._1I3NifxqTHCkE-2DeritAs.DesktopUI,
+.ModalDialogPopup .DesktopUI ._1I3NifxqTHCkE-2DeritAs {
+	/* background: var(--settings-mdl-bg); */
+	background: rgb(var(--dark-20), 0.95) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.ModalDialogPopup .LclHwcOfHFpwObYMD1HLa::before,
+.ModalDialogPopup .DialogContent::before,
+.ModalDialogPopup ._2kwFFHckg8jvnwJfg9-la8::before,
+.ModalDialogPopup ._1I3NifxqTHCkE-2DeritAs.DesktopUI,
+.ModalDialogPopup .DesktopUI ._1I3NifxqTHCkE-2DeritAs::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../../media/noise_1.png);
+	opacity: 0.2;
+	pointer-events: none;
+}
+
+.ModalDialogPopup ._134yW7SKfZYwmvwlUElGx- {
+	background: var(--settings-groupbox-bg) !important;
+	box-shadow: none !important;
+	border: 0.5px solid rgb(var(--dark-3a)) !important;
+	border-radius: 4px !important;
+}
+
+.ModalDialogPopup ._3DEhfTvEKwgLd4smd6QdaU {
+	border: 0.5px solid rgb(var(--dark-3a)) !important;
+	border-radius: 4px !important;
+	background: var(--settings-button-col) !important;
+}
+
+.ModalDialogPopup ._1d8CbcBnA6t3lsxYdnMv1h {
+	border: 0.5px solid rgb(var(--dark-3a)) !important;
+	box-sizing: border-box;
+	background: var(--settings-groupbox-bg) !important;
+	margin: 10px 10px 10px 0px !important;
+}
+
+.ModalDialogPopup ._3f3VJUtyLXUf_JDFE-BaQ6 {
+	background: var(--settings-groupbox-bg) !important;
+	box-shadow: none !important;
+	border-radius: 4px !important;
+	border: 0.5px solid rgb(var(--dark-3a)) !important;
+}
+
+.ModalDialogPopup ._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../../media/noise_1.png);
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.ModalDialogPopup ._18QCu-7MTzd51UpVbYysDy ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR svg,
+.ModalDialogPopup ._18QCu-7MTzd51UpVbYysDy .settings_item ._1rD8X96FdnksZLvRRlEiCR svg {
+	display: none !important;
+}
+
+.ModalDialogPopup ._18QCu-7MTzd51UpVbYysDy ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR::before,
+.ModalDialogPopup ._18QCu-7MTzd51UpVbYysDy .settings_item ._1rD8X96FdnksZLvRRlEiCR::before {
+	border-radius: 4px !important;
+	text-align: center;
+	color: #fff;
+	font-size: 20px !important;
+	line-height: 18px !important;
+	margin-right: 15px !important;
+	font-family: FluentSystemIcons !important;
+}
+
+.ModalDialogPopup ._1Hye7o1wYIfc9TE9QKRW4T {
+	background: rgb(var(--dark-31)) !important;
+}
+
+.ModalDialogPopup ._1-vlriAtKYDViAEunue4VO,
+.ModalDialogPopup .settings_item {
+	border-radius: 4px !important;
+	margin: 5px 5px 0px 5px !important;
+	padding: 8px 16px 8px 10px !important;
+	margin-left: 16px !important;
+	/* margin-right: 16px !important; */
+	/* width: 100% !important; */
+	scrollbar-width: none;
+}
+
+.ModalDialogPopup ._1-vlriAtKYDViAEunue4VO:hover,
+.ModalDialogPopup .settings_item:hover {
+	background: var(--settings-sidebar-hover-not-select) !important;
+	color: #fff !important;
+}
+
+.ModalDialogPopup ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7,
+.ModalDialogPopup .settings_item.selected {
+	background: var(--settings-sidebar-btn-bg) !important;
+}
+
+.ModalDialogPopup ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7:hover,
+.ModalDialogPopup .settings_item.selected:hover {
+	background: var(--settings-sidebar-hover-bg) !important;
+}
+
+.ModalDialogPopup ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7,
+.ModalDialogPopup .settings_item.selected {
+	background: var(--settings-sidebar-btn-bg) !important;
+}
+
+.ModalDialogPopup ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7:hover,
+.ModalDialogPopup .settings_item.selected:hover {
+	background: var(--settings-sidebar-hover-bg) !important;
+}
+
+.ModalDialogPopup .S-_LaQG5eEOM2HWZ-geJI.XRBFu6jAfd5kH9a3V8q_x:not(._33Q-MOeBz52WPV0tuTqKy) {
+	padding: 25px;
+	border-radius: 4px !important;
+	background: var(--settings-groupbox-bg) !important;
+	margin-bottom: 3px !important;
+	border: 0.5px solid var(--border-color) !important;
+}
+
+.ModalDialogPopup .eKmEXJCm_lgme24Fp_HWt:not(.BRmrC-jnwpXqye4oYB21C .W4h3bEBn32WnhtC3IKSvZ),
+._2LyGIHuQ8SFKb5T262YUvg {
+	padding: 25px !important;
+	border-radius: 4px !important;
+	background: var(--settings-groupbox-bg) !important;
+	margin-bottom: 5px !important;
+	border: 0.5px solid var(--border-color) !important;
+}
+
+.ModalDialogPopup ._7EGqd8bdiXJBd2fj5Hh8r {
+	padding: 25px !important;
+	border-radius: 4px !important;
+	background: var(--settings-groupbox-bg) !important;
+	margin-bottom: 3px !important;
+	border: 0.5px solid var(--border-color) !important;
+}
+
+.ModalDialogPopup ._1EntoGyxFp22pF4skClUbC.Panel {
+	gap: unset !important;
+}
+
+.ModalDialogPopup ._3cowYQH1B8oj2_ls7YZ1aW ._2e63TrPvMKVUujM8SUB8X2 {
+	margin-top: 27px;
+	margin-right: 16px;
+}
+
+.ModalDialogPopup ._2HosnnI_K6IvS1QMGhq46P.JA6JIY08WWMEfWP-sZkZ2.TEWmsM70ZLEOxLAjDMpcv.DialogButton._DialogLayout.Secondary.Focusable:hover,
+.ModalDialogPopup ._7EGqd8bdiXJBd2fj5Hh8r.Focusable:hover {
+	background: #3c3c3c !important;
+}
+
+.ModalDialogPopup ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF {
+	background-color: var(--SystemAccentColor);
+}
+
+.ModalDialogPopup ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit {
+	background-color: #fff;
+}
+
+.ModalDialogPopup .eKmEXJCm_lgme24Fp_HWt::after {
+	content: unset !important;
+}
+
+.ModalDialogPopup .S-_LaQG5eEOM2HWZ-geJI._3s1Rkl6cFOze_SdV2g-AFo::after {
+	height: 0px !important;
+}
+
+.ModalDialogPopup .HijmccPB1BKyhOwhX1EVl:not(._3-_jME_xsuvgT3Dvq4bw_q) + .HijmccPB1BKyhOwhX1EVl:not(._3-_jME_xsuvgT3Dvq4bw_q)::before {
+	content: unset !important;
+}
+
+.ModalDialogPopup .HijmccPB1BKyhOwhX1EVl {
+	text-shadow: unset !important;
+}
+
+/* .gamepaddialog_ControlsListChild_XvRso {
+    border: 0.5px solid rgb(var(--dark-3a));
+    border-radius: 6px;
+    background: var(--settings-button-col);
+} */
+.ModalDialogPopup .BRmrC-jnwpXqye4oYB21C .W4h3bEBn32WnhtC3IKSvZ {
+	position: absolute;
+	right: 35px;
+	top: 5px;
+}
+
+button._3aB-C2eTsfVtvZR5sC9N_r {
+	padding-right: 20px !important;
+}
+
+p._1ifM6luJEQ5H2O1Y3S6F_R {
+	padding-left: 15px !important;
+}
+
+button.UqEiVDhZ47cn3vWxM7cR0.TEWmsM70ZLEOxLAjDMpcv.DialogButton._DialogLayout.Secondary.Focusable {
+	background: var(--settings-button-col) !important;
+	border-radius: 6px !important;
+	border: 0.5px solid rgb(var(--dark-3a)) !important;
+}
+
+button.UqEiVDhZ47cn3vWxM7cR0.TEWmsM70ZLEOxLAjDMpcv.DialogButton._DialogLayout.Secondary.Focusable:hover {
+	background: #3c3c3c !important;
+}
+
+button._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable {
+	border: 0.5px solid rgb(var(--dark-3a));
+	border-radius: 6px;
+	background: var(--settings-button-col);
+	padding: 6px 14px 10px 14px;
+}
+
+button._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable:hover {
+	background: #3c3c3c !important;
+	/* box-shadow: none !important; */
+}
+
+.ModalDialogPopup ._2JtC3JSLKaOtdpAVEACsG1 {
+	background: #272727 !important;
+	border: 1px solid #9e9e9e;
+	height: 18px !important;
+}
+
+.ModalDialogPopup ._3__ODLQXuoDAX41pQbgHf9 {
+	width: 12px !important;
+	top: 4px !important;
+	height: 12px !important;
+	left: 4px !important;
+	background: #cecece !important;
+}
+
+.ModalDialogPopup ._2JtC3JSLKaOtdpAVEACsG1::before {
+	transform: translateX(-36px);
+	transition: none !important;
+	background: var(--SystemAccentColorLight2) !important;
+	/* border: none !important; */
+}
+
+.ModalDialogPopup ._24G4gV0rYtRbebXM44GkKk._3ld7THBuSMiFtcB_Wo165i ._2JtC3JSLKaOtdpAVEACsG1::before {
+	transform: translateX(0px) !important;
+}
+
+.ModalDialogPopup ._3ld7THBuSMiFtcB_Wo165i ._2JtC3JSLKaOtdpAVEACsG1 {
+	/* border: 1px solid var(--SystemAccentColorLight2); */
+	border: none;
+	height: 20px !important;
+}
+
+.ModalDialogPopup ._3ld7THBuSMiFtcB_Wo165i ._3__ODLQXuoDAX41pQbgHf9 {
+	background: #000 !important;
+	transform: translateX(18px) !important;
+	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s;
+}
+
+.ModalDialogPopup ._24G4gV0rYtRbebXM44GkKk:not(._1pmyxI3wxLrWwGnc52yVns):hover {
+	box-shadow: none !important;
+}
+
+.ModalDialogPopup ._24G4gV0rYtRbebXM44GkKk:hover > ._3__ODLQXuoDAX41pQbgHf9 {
+	width: 23px !important;
+	width: 14px !important;
+	top: 3px !important;
+	height: 14px !important;
+	border-radius: 15px !important;
+	left: 3px !important;
+	/* background: #CECECE !important; */
+}
+
+/* Transition checkmark on and off */
+.ModalDialogPopup ._3__ODLQXuoDAX41pQbgHf9 {
+	transition: transform 0.2s !important;
+}
+
+/* remove box shadow from button hover */
+button.DialogButton::before {
+	box-shadow: none !important;
+}
+
+.ModalDialogPopup .maximizeButton .title-area-icon-inner:hover,
+.ModalDialogPopup .minimizeButton .title-area-icon-inner:hover,
+.ModalDialogPopup .restoreButton .title-area-icon-inner:hover {
+	background: #4a4a4a;
+}
+
+.ModalDialogPopup ._2rjVTGz8aLvqOdz5v2gq5C {
+	margin-top: 10px;
+}
+
+.ModalDialogPopup ._1-vlriAtKYDViAEunue4VO,
+.ModalDialogPopup .settings_item {
+	max-width: none !important;
+}
+
+.ModalDialogPopup .DialogDropDown {
+	padding: 6px 6px 6px 12px !important;
+	border: 0.5px solid #3f3f3f !important;
+	background: var(--settings-button-col) !important;
+	border-radius: 6px;
+}
+
+.ModalDialogPopup .DialogDropDown:hover {
+	background: #3c3c3c !important;
+	box-shadow: none !important;
+}
+
+.ModalDialogPopup .DialogDropDown_Arrow {
+	transform: translateX(-5px);
+}
+
+.ModalDialogPopup .DialogDropDown_Arrow::before {
+	content: '';
+	font-family: FluentSystemIcons;
+	margin: 0 -5px;
+}
+
+.ModalDialogPopup .DialogDropDown_Arrow svg {
+	display: none;
+}
+
+.ModalDialogPopup .HijmccPB1BKyhOwhX1EVl.RadioButton.Focusable {
+	border-radius: 6px !important;
+}
+
+.ModalDialogPopup ._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer {
+	padding: 5px;
+	border-radius: 7px;
+	border: 0.5px solid rgb(var(--dark-20));
+	box-shadow: none !important;
+	margin-bottom: 0px !important;
+	background: #2c2c2c !important;
+}
+
+.ModalDialogPopup .DialogMenuPosition.visible._1S6CCCQlcTTAAHh3LMTLh1 {
+	background: none !important;
+	box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 7px;
+}
+
+.ModalDialogPopup ._2oAiZidGyUxL-hfupFDQ2m {
+	border-radius: 4px;
+	/* height: 12px; */
+	padding: 8px 15px 12px 15px;
+	/* background: rgb(var(--dark-13)); */
+}
+
+.ModalDialogPopup ._2oAiZidGyUxL-hfupFDQ2m:hover {
+	background: rgb(var(--dark-20)) !important;
+}
+
+.ModalDialogPopup ._2oAiZidGyUxL-hfupFDQ2m:focus {
+	background: rgb(var(--dark-21)) !important;
+}
+
+.ModalDialogPopup ._2OJfkxlD3X9p8Ygu1vR7Lr {
+	color: #929292 !important;
+}
+
+.ModalDialogPopup ._1ml4SNc3LIyBDHIf8ekVSw.Shared_Radio_Group.Panel {
+	margin-bottom: 3px;
+	border-radius: 4px;
+	background: var(--settings-groupbox-bg) !important;
+	box-shadow: none !important;
+	border: 0.5px solid var(--border-color) !important;
+}
+
+.ModalDialogPopup .HijmccPB1BKyhOwhX1EVl.RadioButton.Focusable:not(._3-_jME_xsuvgT3Dvq4bw_q) {
+	border: 0.5px solid #3f3f3f !important;
+	background: var(--settings-button-col) !important;
+}
+
+.ModalDialogPopup .HijmccPB1BKyhOwhX1EVl.RadioButton.Focusable:hover:not(._3-_jME_xsuvgT3Dvq4bw_q) {
+	background: #3c3c3c !important;
+}
+
+.ModalDialogPopup .HijmccPB1BKyhOwhX1EVl.RadioButton._3-_jME_xsuvgT3Dvq4bw_q.Focusable {
+	background: var(--SystemAccentColorLight2) !important;
+	border: 0.5px solid #666666 !important;
+	color: #000 !important;
+	font-weight: 400;
+}
+
+.ModalDialogPopup .HijmccPB1BKyhOwhX1EVl.RadioButton._3-_jME_xsuvgT3Dvq4bw_q.Focusable:hover {
+	background: var(--SystemAccentColorLight3) !important;
+}
+
+.ModalDialogPopup ._24G4gV0rYtRbebXM44GkKk._3ld7THBuSMiFtcB_Wo165i.Focusable::before {
+	content: 'On';
+	margin-left: -30px;
+	font-size: 14px;
+	color: white;
+}
+
+.ModalDialogPopup ._24G4gV0rYtRbebXM44GkKk.Focusable::before {
+	content: 'Off';
+	margin-left: -30px;
+	font-size: 14px;
+	color: white;
+}
+
+.ModalDialogPopup ._2KFeE_s51aT07ohdMu_ZH1 {
+	border-radius: 4px !important;
+	background: var(--settings-groupbox-bg) !important;
+	margin-bottom: 3px !important;
+	border: 0.5px solid var(--border-color) !important;
+}
+
+.ModalDialogPopup ._1u5y7VbwvOwncjMsMqnFUz.Panel {
+	/* border-radius: 4px !important; */
+	background: var(--settings-groupbox-bg) !important;
+	/* margin-bottom: 3px !important; */
+	border-top: 0.5px solid var(--border-color) !important;
+	box-shadow: none !important;
+	display: block !important;
+}
+
+.ModalDialogPopup .DialogCheckbox.Active {
+	border-radius: 4px;
+	box-shadow: none !important;
+	background: var(--SystemAccentColorLight2);
+}
+
+.ModalDialogPopup .DialogCheckbox.Active:hover {
+	background: var(--SystemAccentColorLight3) !important;
+}
+
+/* .DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled), .DialogCheckbox:hover:not(.Disabled), .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled), .DialogCheckbox:focus:not(.Disabled) {
+    background: var(--SystemAccentColorLight3) !important;
+} */
+.ModalDialogPopup .DialogCheckbox {
+	height: 20px;
+	width: 20px;
+}
+
+.ModalDialogPopup .DialogCheckbox.Active::before {
+	content: '';
+	font-family: FluentSystemIcons;
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 6px;
+	margin-left: 2px;
+}
+
+.ModalDialogPopup .DialogCheckbox svg {
+	display: none !important;
+}
+
+.ModalDialogPopup .DialogCheckbox:not(.Active) {
+	background: var(--border-color) !important;
+	border: 0.5px solid #999999;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.ModalDialogPopup .DialogCheckbox:not(.Active) {
+	background: #2a2a2a !important;
+}
+
+button._3aB-C2eTsfVtvZR5sC9N_r.DialogButton._DialogLayout.Small.Focusable {
+	background: none !important;
+	box-shadow: none !important;
+}
+
+button._3aB-C2eTsfVtvZR5sC9N_r {
+	width: 16px !important;
+	height: 16px !important;
+	/* padding-right: 10px; */
+}
+
+button._3aB-C2eTsfVtvZR5sC9N_r:not(.WCaU2nUGonBQ-0INHRlgk)::before {
+	content: '';
+	font-family: FluentSystemIcons;
+	color: white !important;
+	opacity: 1 !important;
+	font-size: 18px !important;
+	padding-top: px !important;
+	margin-top: -5px;
+}
+
+button._3aB-C2eTsfVtvZR5sC9N_r.WCaU2nUGonBQ-0INHRlgk::before {
+	content: '';
+	font-family: FluentSystemIcons;
+	color: white !important;
+	opacity: 1 !important;
+	font-size: 18px !important;
+	transform: rotate(180deg);
+	padding-bottom: 15px;
+}
+
+.ModalDialogPopup .DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled),
+.ModalDialogPopup .DialogCheckbox:hover:not(.Disabled),
+.ModalDialogPopup .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled),
+.ModalDialogPopup .DialogCheckbox:focus:not(.Disabled),
+.ModalDialogPopup ._2bl0iQ9xigbq4Zd1NI6NZl::before {
+	background: var(--SystemAccentColorLight3);
+}
+
+.ModalDialogPopup .DialogBodyText._3fPiC9QRyT5oJ6xePCVYz8 {
+	margin-bottom: 0px !important;
+	display: none !important;
+}
+
+.ModalDialogPopup .DialogSubHeader._2rK4YqGvSzXLj1bPZL8xMJ {
+	text-transform: none;
+	color: white;
+	font-size: 14px;
+}
+
+button._3aB-C2eTsfVtvZR5sC9N_r svg {
+	display: none !important;
+}
+
+.ModalDialogPopup ._33Q-MOeBz52WPV0tuTqKy {
+	background: none !important;
+	padding-right: 35px;
+	margin-top: -40px;
+	padding-bottom: 10px !important;
+	text-transform: none !important;
+	font-size: 11px !important;
+}
+
+input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
+	border: 0.5px solid rgb(var(--dark-3a));
+	border-radius: 6px;
+	background: var(--settings-button-col);
+	height: 14px !important;
+	padding: 8px 14px 8px 14px;
+}
+
+.ModalDialogPopup .DesktopUI .DialogTextInputBase:focus,
+.ModalDialogPopup .DialogTextInputBase:focus-within {
+	box-shadow: none !important;
+	border: 0.5px solid #66666685 !important;
+}
+
+button._30Og77vH37EtqaKCCDIAP9.DialogButton._DialogLayout.Secondary.Focusable {
+	border: 0.5px solid rgb(var(--dark-3a)) !important;
+	border-radius: 6px;
+	background: var(--settings-button-col) !important;
+	height: 32px !important;
+	min-height: unset !important;
+	width: 32px !important;
+	box-sizing: border-box !important;
+}
+
+button._30Og77vH37EtqaKCCDIAP9.DialogButton._DialogLayout.Secondary.Focusable svg {
+	height: 14px !important;
+	width: 14px !important;
+}
+
+.ModalDialogPopup .DialogSubHeader {
+	font-size: 14px;
+	text-transform: none !important;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+
+button.DialogButton._DialogLayout.Secondary.Focusable:not(.TEWmsM70ZLEOxLAjDMpcv),
+.ModalDialogPopup .QXpTLSmzoZutYgh3fp02Y.DialogButton._DialogLayout.Primary.Focusable,
+.ModalDialogPopup ._28eIRmQ229ntDIyQXTn3Ub._32Lfwcdolc3ByZWItfR3ni.QE3sHW9puNTAjiRDY71Xy._2LRif1NKUxREP-usXA9urF.Panel,
+.ModalDialogPopup ._2HosnnI_K6IvS1QMGhq46P.JA6JIY08WWMEfWP-sZkZ2.TEWmsM70ZLEOxLAjDMpcv.DialogButton._DialogLayout.Secondary.Focusable {
+	border: 0.5px solid rgb(var(--dark-3a)) !important;
+	border-radius: 6px;
+	background: var(--settings-button-col) !important;
+}
+
+.ModalDialogPopup ._1-nHjRywUoX7Mpyc6JOPaQ.Qeg4qAFIMLaYd3mHOBndS {
+	background: var(--settings-button-col);
+}
+
+.ModalDialogPopup ._2_0JonK7eKEvh8IoOvq0-B {
+	background: #4c4c4c !important;
+}
+
+.ModalDialogPopup .Mq25Nap224hVdTdtXSsnq,
+.ModalDialogPopup ._2_vG6TwMW2XtyLlTEaODH9 {
+	background: #9f9f9f !important;
+	--left-track-color: var(--SystemAccentColorLight2) !important;
+	height: 4px !important;
+}
+
+.ModalDialogPopup ._2yVKjlAVW3txkGmVpX9G8i {
+	border: 5px solid #454545 !important;
+	box-sizing: border-box;
+	height: 22px !important;
+	width: 22px !important;
+	background: var(--SystemAccentColorLight2) !important;
+	top: 1px !important;
+	right: 1px !important;
+	box-shadow: none !important;
+	transition: border 0.1s;
+}
+
+.ModalDialogPopup ._3o137DBNF03ytbLBl2jPri:hover > ._1pQZiklDl2xXiNsZ6Uvy_a > ._2yVKjlAVW3txkGmVpX9G8i {
+	border: 3px solid #454545 !important;
+}
+
+.ModalDialogPopup ._2RCSUgg2X_uF_C0e1lrcqc.Panel:hover {
+	/* padding: 6px 6px 6px 12px !important; */
+	border: 0.5px solid #3f3f3f !important;
+	background: var(--settings-button-col) !important;
+	box-sizing: border-box !important;
+	border-radius: 6px;
+}
+
+.ModalDialogPopup ._2RCSUgg2X_uF_C0e1lrcqc.Panel {
+	border: 0.5px solid transparent !important;
+}
+
+.ModalDialogPopup ._3rGEUoEnGkGWALEBzbvfef {
+	border: 0.5px solid #3f3f3f !important;
+	background: var(--settings-button-col) !important;
+	box-sizing: border-box !important;
+	border-radius: 4px;
+	padding: 16px !important;
+}
+
+.ModalDialogPopup .ybEU2kARViIFGigPw8VQ0 {
+	padding-top: 8px !important;
+}
+
+.ModalDialogPopup ._1WKUOT3FdB9-48MMP0Tz9l.Focusable {
+	background: #4a4a4a !important;
+	border: 0.5px solid #6666664a;
+}
+
+.ModalDialogPopup ._1rihlgVMF4Q_fFZDnXeVt5 {
+	color: #fff !important;
+}
+
+/* .contextmenu_contextMenuContents_2y2tU {
+    background: rgb(var(--dark-20)) !important;
+} */
+html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt {
+	border: 0.5px solid rgb(var(--dark-3a)) !important;
+	display: block !important;
+}
+
+.ModalDialogPopup ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+	background: var(--settings-sidebar-hover-not-select) !important;
+	color: #fff !important;
+	border-radius: 4px !important;
+}
+
+.ModalDialogPopup ._1F2EcTc-0vNkdiBz8ATakM:not(:last-child) {
+	height: 1px;
+	background: rgb(var(--dark-2b));
+	width: calc(100% - 8px) !important;
+	margin-left: 4px;
+}
+
+.ModalDialogPopup ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem {
+	border-top: none !important;
+}
+
+.ModalDialogPopup ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover,
+.ModalDialogPopup ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
+	border: 0.5px solid rgb(var(--dark-3a)) !important;
+	box-sizing: border-box !important;
+	background: rgb(var(--dark-3a)) !important;
+	border-radius: 6px !important;
+}
+
+.ModalDialogPopup ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem,
+.ModalDialogPopup ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem {
+	border: 0.5px solid transparent !important;
+}
+
+.ModalDialogPopup .jVo8TLdJLQjHUL3pO8px9._1KPWUt7wYWSfD3V7sYpsyT._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem {
+	border: 0.5px solid rgb(var(--dark-3a)) !important;
+	box-sizing: border-box !important;
+	background: var(--settings-button-col) !important;
+	border-radius: 6px !important;
+	color: white !important;
+}
+
+.ModalDialogPopup .PP7LM0Ow1K5qkR8WElLpt.visible._1S6CCCQlcTTAAHh3LMTLh1 {
+	background: #2e2e2e !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	border-radius: 8px !important;
+	border: 0.5px solid rgb(var(--dark-20)) !important;
+}
+
+.ModalDialogPopup .PP7LM0Ow1K5qkR8WElLpt.visible._1S6CCCQlcTTAAHh3LMTLh1::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../../media/noise_1.png);
+	opacity: 0.4;
+	pointer-events: none;
+}
+
+.ModalDialogPopup ._2y2tUbsMx8OIwkimGSyHmb {
+	background: #2e2e2e !important;
+}
+
+.ModalDialogPopup .PP7LM0Ow1K5qkR8WElLpt.visible._1S6CCCQlcTTAAHh3LMTLh1 {
+	box-shadow: 0 7px 8px 0px #0000002b !important;
+}
+
+.ModalDialogPopup ._1HL6KuwUJaZQ7x2rmAxxSz {
+	text-transform: none !important;
+	color: white;
+	margin-bottom: 10px;
+	font-weight: normal !important;
+	font-size: 14px !important;
+}
+
+.ModalDialogPopup .S-_LaQG5eEOM2HWZ-geJI._1pmyxI3wxLrWwGnc52yVns ._3b0U-QDD-uhFpw6xM716fw {
+	color: #7b7b7b;
+}
+
+.ModalDialogPopup ._1Hye7o1wYIfc9TE9QKRW4T {
+	margin-left: 16px !important;
+	margin-right: 5px !important;
+}
+
+/* div#popup_target {
+    border-radius: 6px;
+    border: 1px solid rgb(var(--dark-3a));
+    box-sizing: border-box;
+    overflow: hidden;
+} */
+div.ModalPosition_TopBar {
+	display: none !important;
+}
+
+.ModalDialogPopup ._2DpXjzK3WWsOtUWUrcuOG7::before,
+.ModalDialogPopup .selected::before {
+	content: '';
+	width: 3px;
+	height: 16px;
+	border-radius: 1.5px;
+	background: var(--SystemAccentColor, rgba(96, 205, 255, 0.9));
+	position: absolute;
+	left: 0;
+	animation-name: delayedShow;
+	animation-duration: 0.4s;
+}
+
+.ModalDialogPopup ._2DpXjzK3WWsOtUWUrcuOG7,
+.ModalDialogPopup .selected {
+	position: relative;
+}
+
+@keyframes delayedShow {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.ModalDialogPopup ._18QCu-7MTzd51UpVbYysDy.Panel::-webkit-scrollbar {
+	display: none;
+}
+
+.ModalDialogPopup ._29AJUo6aKT93gX24N5WFj_.visible._1S6CCCQlcTTAAHh3LMTLh1 {
+	border: 1px solid #1d1d1d !important;
+	border-radius: 6px !important;
+	background: rgb(var(--dark-2b)) !important;
+}
+
+.ModalDialogPopup ._3GbHFVMCkeB-Dv1uphs9Xo.Panel {
+	background: unset !important;
+	box-shadow: unset !important;
+	border: 1px solid #1d1d1d !important;
+	border-radius: 6px !important;
+	margin-bottom: 10px !important;
+}
+
+.ModalDialogPopup .QFVXM_1rWs04OyJDUaCom {
+	background: rgb(var(--dark-1b));
+}
+
+.ModalDialogPopup .DialogContent._DialogLayout.GenericConfirmDialog._DialogCenterVertically {
+	border: 2px solid #353535;
+	border-radius: 8px;
+	/* padding: 26px !important; */
+}
+
+.ModalDialogPopup .closeButton {
+	display: flex;
+}
+
+.ModalDialogPopup .DialogContent._DialogLayout.GenericConfirmDialog._DialogCenterVertically .DialogBody.Panel {
+	margin-bottom: unset !important;
+}
+
+.ModalDialogPopup .DialogContent._DialogLayout.GenericConfirmDialog._DialogCenterVertically .DialogHeader {
+	padding-top: 0px !important;
+}
+
+.ModalDialogPopup ._1-vlriAtKYDViAEunue4VO {
+	display: flex;
+	align-items: stretch;
+}
+
+.MillenniumSettings ._2rjVTGz8aLvqOdz5v2gq5C {
+	text-transform: capitalize;
+	color: white;
+	font-weight: 500 !important;
+	font-size: 22px !important;
+}

@@ -1,0 +1,17 @@
+._9sPoVBFyE_vE87mnZJ5aB ._3x1HklzyDs4TEjACrRO2tB {
+	background: rgb(37 37 37) !important;
+	border-top-left-radius: 7px;
+}
+
+._2Nq6ov7A1hGcHXVOXNt_OE::before,
+._2AUVZlzQq67qe3yhLZsPPB::before {
+	content: unset !important;
+}
+
+.tool-tip-source:has(._3LKQ3S_yqrebeNLF6aeiog, ._5wILZhsLODVwGfcJ0hKmJ) {
+	display: none !important;
+}
+
+.tool-tip-source:has(._3mGEzzp18imtSzGPkduedi) {
+	order: 0 !important;
+}

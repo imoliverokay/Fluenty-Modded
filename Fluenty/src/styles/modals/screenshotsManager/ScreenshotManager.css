@@ -1,0 +1,37 @@
+@import url(../../titlebar/frameBar.css);
+
+.YzIcpcz4oFx-nndxro5jE {
+    background: rgb(var(--dark-13)) !important;
+}
+
+._2r485O6B51u64d19eTbK1a {
+    background: rgb(var(--dark-1b));
+}
+
+.hXJt8CFzzitOG3moJEGg- {
+    color: white !important;
+}
+
+._28eIRmQ229ntDIyQXTn3Ub._32Lfwcdolc3ByZWItfR3ni.sbIJvjOzcFPeC3MSt_bTH.QE3sHW9puNTAjiRDY71Xy.zeGUOeW3Cat4UJGCGwXPZ,
+._28eIRmQ229ntDIyQXTn3Ub._32Lfwcdolc3ByZWItfR3ni.QE3sHW9puNTAjiRDY71Xy,
+._28eIRmQ229ntDIyQXTn3Ub._32Lfwcdolc3ByZWItfR3ni._1qOXVgKq89avM0v873Oo9t.QE3sHW9puNTAjiRDY71Xy._2T45kYJmyvQWyxytQeohuY {
+    padding: 16px 12px;
+    margin-top: 8px;
+    background: var(--accent-secondary) !important;
+    border-radius: 6px !important;
+    border-top: 0.5px solid #3F3F3F;
+    border-left: 0.5px solid var(--border-color-secondary);
+    border-bottom: 0.5px solid var(--border-color-secondary);
+    border-right: 0.5px solid var(--border-color-secondary);
+    color: white !important;
+    text-align: center !important;
+    line-height: normal !important;
+    box-sizing: border-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+._162CJAH8jPwIYGGg5Q2YIc {
+    background: linear-gradient(to bottom, rgb(var(--dark-1b), 0.25) 0.62%, rgb(var(--dark-1b)) 40%) !important;
+}

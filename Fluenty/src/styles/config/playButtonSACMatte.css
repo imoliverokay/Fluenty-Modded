@@ -1,0 +1,23 @@
+:root {
+    --playButtonColor: var(--SystemAccentColorLight1);
+    --playButtonHoverColor: var(--SystemAccentColorLight2);
+    --rightSideButtonColor: var(--SystemAccentColorLight2);
+    --rightSideButtonHoverColor: var(--SystemAccentColorLight1);
+
+    --installButtonColor: var(--SystemAccentColorLight2);
+    --installButtonHoverColor: var(--SystemAccentColorLight1);
+}
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX.Focusable {
+    background: var(--playButtonColor) !important;
+}
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX.Focusable:hover {
+    background: var(--playButtonHoverColor) !important;
+}
+
+._3cI5TXsFX3bvpR-7EBOtxq > ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
+    background: var(--rightSideButtonColor) !important;
+}
+._3cI5TXsFX3bvpR-7EBOtxq > ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi, ._2q-gZ3XJzlvSGHSF-GvSmi._2AzIX5kl9k6JnxLfR5H4kX.Focusable {
+    background: var(--rightSideButtonHoverColor) !important;
+}

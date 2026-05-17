@@ -1,0 +1,39 @@
+._3pofGqV0buiKAfMPEs3_82 .contextMenuItem::before {
+    margin-right: 10px;
+    margin-left: -5px;
+    font-family: FluentSystemIcons;
+    font-size: 18px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._3pofGqV0buiKAfMPEs3_82 .contextMenuItem:nth-child(1)::before {
+    content: "";
+}
+
+._3pofGqV0buiKAfMPEs3_82 .contextMenuItem:nth-child(2)::before {
+    content: "";
+}
+
+._3pofGqV0buiKAfMPEs3_82 .contextMenuItem:nth-child(3)::before {
+    content: "";
+}
+
+._3pofGqV0buiKAfMPEs3_82 .contextMenuItem:nth-child(4)::before {
+    content: "";
+}
+
+._3pofGqV0buiKAfMPEs3_82 .contextMenuItem:nth-child(5)::before {
+    content: "";
+}
+
+._3pofGqV0buiKAfMPEs3_82 .contextMenuItem:nth-child(6)::before {
+    content: "";
+}
+
+html .DesktopUI #popup_target .PP7LM0Ow1K5qkR8WElLpt.visible._1S6CCCQlcTTAAHh3LMTLh1 {
+    position: absolute !important;
+}

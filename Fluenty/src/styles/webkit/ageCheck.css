@@ -1,0 +1,50 @@
+html body.v6 div#footer_spacer {
+    background: none !important;
+}
+
+html.responsive.client {
+    background: #202020 !important;
+}
+
+.agegate_content_descriptors_notes {
+    color: grey !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+
+a.btnv6_blue_hoverfade.btn_medium span {
+    color: white !important;
+    font-weight: normal !important;
+}
+
+.agegate_text_container .note {
+    color: grey !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+
+.steamdb_error_link.steamdb_agecheck_hint {
+    font-weight: normal !important;
+    font-size: 14px !important;
+}
+
+#app_agegate select {
+    background: #333333 !important;
+    color: white !important;
+    height: 33px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+html .agegate_birthday_selector {
+    background: none !important;
+    border: none !important;
+}
+
+html .agegate_birthday_desc {
+    font-weight: normal !important;
+}
+
+body.responsive_page {
+    background: #202020 !important;
+}

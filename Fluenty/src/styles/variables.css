@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Segoe;
+    src: url("../fonts/SegoeVariable.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: FluentSystemIcons;
+    src: url("../fonts/FluentSystemIcons-Resizable.woff2") format("woff2");
+}
+
+:root {
+    --text-font-family: "Segoe";
+    --background-fill-color-acrylic-background-default: url("../media/noise.jpeg");
+    --fill-color-accent-default: #005fb8;
+    --fill-color-accent-secondary: rgba(96, 205, 255, 0.9);
+    --background-fill-color-mica-background-base: rgb(32 32 32);
+    --stroke-color-card-stroke-default: rgba(0, 0, 0, 0.1);
+    --main-accent-default: var(--SystemAccentColorLight2, --fill-color-accent-secondary);
+    --fill-color-subtle-secondary: #454545;
+    --fill-color-text-primary: rgba(255, 255, 255, 1);
+    --fill-color-acrylic-background-default: rgba(44, 44, 44, 0.96);
+}

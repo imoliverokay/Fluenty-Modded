@@ -1,0 +1,26 @@
+:root {
+    --background-fill-color-layer-default: #2E3440;
+
+    --settings-sidebar-btn-bg: #434C5E;
+    --settings-sidebar-hover-bg: #4C566A;
+    --settings-sidebar-hover-not-select: #4C566A;
+
+    --compact-mode-navbar-button-col: #474e5c;
+
+    --settings-button-col: #434C5E;
+    --settings-groupbox-bg: #3B4252;
+    --settings-mdl-bg: #2E3440;
+    --window-bg: #2E3440;
+    --nosidebar-title: #2E3440;
+    --titlebar-color: #2E3440;
+    --background-col: #2E3440;   
+    --accent-col: #3B4252; 
+    --color-darker: #2E3440;
+    --color-darkest: #2E3440;
+    --color-light: #2E3440;
+    --border-color: #3B4252;
+    --border-color-secondary: #3B4252;
+    --accent-secondary: #2E3440;
+    --focusable-col: #2E3440;
+    --input-border-col: #2E3440;
+}

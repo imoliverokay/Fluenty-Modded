@@ -1,0 +1,5 @@
+:root {
+    --context-menu-bg: rgba(var(--tray-menu-bg), 0.5);
+    --tray-menu-bg: rgba(var(--tray-menu-bg), 0.5);
+    --tray-menu-round: 0px;
+}

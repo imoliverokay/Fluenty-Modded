@@ -1,0 +1,32 @@
+/* Dev note: Transparent type shii -claw*/
+
+.profile_header_bg_texture {
+    background: rgba(0, 0, 0, 0) !important;
+    backdrop-filter: blur(20px) !important;
+}
+
+.profile_header_bg {
+}
+
+.profile_content.has_profile_background {
+}
+
+.profile_content {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.profile_customization {
+}
+
+.friendBlock {
+}
+
+.profile_header_content>.playerAvatar{
+    border-radius: inherit !important;
+}
+
+.btn_profile_action.btn_medium {
+}
+
+.btn_profile_action.btn_medium:hover {
+}
